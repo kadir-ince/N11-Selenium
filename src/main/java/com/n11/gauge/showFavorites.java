@@ -17,4 +17,11 @@ public class showFavorites {
         By favoritesLink = By.cssSelector("li.wishGroupListItem:nth-child(1) > div:nth-child(1) > a:nth-child(1)");
         OpenHomePage.driver.findElement(favoritesLink).click();
     }
+
+    @Step("Delete phone in favorites")
+    public void deletePhone() {
+        By deleteFavorites = By.cssSelector(".deleteProFromFavorites");
+        OpenHomePage.driver.findElement(deleteFavorites).click();
+
+    }
 }

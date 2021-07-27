@@ -6,4 +6,4 @@ Login
 * Fill password input "test1234"
 
 ## Click to Login Button
-* Click the login button
+* Click to login button

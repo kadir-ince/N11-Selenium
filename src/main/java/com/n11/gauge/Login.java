@@ -26,7 +26,7 @@ public class Login {
 
     }
 
-    @Step("Click the login button")
+    @Step("Click to login button")
     public void clickLoginButton() {
 //        OpenHomePage.driver.findElement(loginButton).click();
 
