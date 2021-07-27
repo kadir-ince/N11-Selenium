@@ -1,0 +1,74 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1747milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1747"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56688"}
+{"logLevel":"info","message":"Listening on port:56688"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillPassword' and 'com.n11.gauge.Login.fillPassword'"}
+{"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Found Move to the second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
+{"logLevel":"debug","message":"Found Click the search button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'"}
+{"logLevel":"debug","message":"Found Check it is open in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to the login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.searchPhone' and 'com.n11.gauge.Search.searchPhone'"}
+{"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillEmail' and 'com.n11.gauge.Login.fillEmail'"}
+{"logLevel":"debug","message":"Found Fill email input {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.clickLoginButton' and 'com.n11.gauge.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click the login button in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tFill email input {} : public void fillEmail(String userEmail)"}
+{"logLevel":"debug","message":"\tClick the login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tClick to the login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tSearching {} Phone : public void searchPhone(String phoneName)"}
+{"logLevel":"debug","message":"\tMove to the second page : public void moveToSecondPage()"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tClick the search button : public void clickSearchButton()"}
+{"logLevel":"debug","message":"\tFill password input {} : public void fillPassword(String userPassword)"}
+{"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
+{"logLevel":"debug","message":"Executing 'Move to the second page' using 'class com.n11.gauge.Search.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo"}
+1627383586515	geckodriver	INFO	Listening on 127.0.0.1:30952
+1627383588668	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileGswhB2"
+1627383590631	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileGswhB2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627383595677	Marionette	INFO	Listening on port 56725
+1627383595828	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 27, 2021 1:59:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen"}
+----------------
+|Page is opened|
+----------------
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.OpenHomePage.clickLoginButton"}
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.Login.fillEmail"}
+{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.Login.fillPassword"}
+1627383611325	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+{"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.Login.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.Search.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.Search.clickSearchButton"}
+1627383618378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
