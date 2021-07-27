@@ -12,10 +12,10 @@
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.addToFavorites' and 'com.n11.gauge.zAddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.addToFavorites' and 'com.n11.gauge.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.zAddFavorite.moveToSecondPage'"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.moveToSecondPage' and 'com.n11.gauge.zAddFavorite.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.AddFavorite.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.moveToSecondPage' and 'com.n11.gauge.AddFavorite.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
@@ -64,7 +64,7 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 {"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.Login.clickLoginButton"}
 {"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.Search.searchPhone"}
 {"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.Search.clickSearchButton"}
-{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.zAddFavorite.addToFavorites"}
+{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.AddFavorite.addToFavorites"}
 1627384423552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://marionette/content/sync.js:237:19
 TimedPromise@chrome://marionette/content/sync.js:222:10

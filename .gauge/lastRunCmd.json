@@ -4,5 +4,9 @@
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"/Users/kadirince/Desktop/n11/specs"
+	"/Users/kadirince/Desktop/n11/specs/homePage.spec",
+	"/Users/kadirince/Desktop/n11/specs/login.spec",
+	"/Users/kadirince/Desktop/n11/specs/search.spec",
+	"/Users/kadirince/Desktop/n11/specs/addFavorite.spec",
+	"/Users/kadirince/Desktop/n11/specs/showFavorites.spec"
 ]

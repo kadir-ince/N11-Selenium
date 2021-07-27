@@ -3,7 +3,7 @@ package com.n11.gauge;
 import com.thoughtworks.gauge.Step;
 import org.openqa.selenium.By;
 
-public class zAddFavorite {
+public class AddFavorite {
 
 
     @Step("Add third phone to favorites")
@@ -12,5 +12,12 @@ public class zAddFavorite {
         OpenHomePage.driver.findElement(thirdPhone).click();
 
         // check is it added
+    }
+
+
+    @Step("Go to account page")
+    public void goToAccountPage() {
+        By accountLink = By.cssSelector("a.menuTitle");
+        OpenHomePage.driver.findElement(accountLink).click();
     }
 }

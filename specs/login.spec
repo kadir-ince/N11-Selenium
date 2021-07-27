@@ -1,7 +1,5 @@
 Login
 =====================
-Created by kadirince on 27.07.2021
-
 
 ## Fill email and password fields
 * Fill email input "selenium@mailinator.com"

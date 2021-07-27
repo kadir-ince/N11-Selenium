@@ -10,9 +10,9 @@
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.addToFavorites' and 'com.n11.gauge.zAddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.addToFavorites' and 'com.n11.gauge.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.moveToSecondPage' and 'com.n11.gauge.zAddFavorite.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.moveToSecondPage' and 'com.n11.gauge.AddFavorite.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
@@ -38,8 +38,8 @@
 {"logLevel":"debug","message":"\tClick the search button : public void clickSearchButton()"}
 {"logLevel":"debug","message":"\tFill password input {} : public void fillPassword(String userPassword)"}
 {"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
-{"logLevel":"debug","message":"Executing 'Move to the second page' using 'class com.n11.gauge.zAddFavorite.moveToSecondPage"}
-{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.zAddFavorite.addToFavorites"}
+{"logLevel":"debug","message":"Executing 'Move to the second page' using 'class com.n11.gauge.AddFavorite.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.AddFavorite.addToFavorites"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo"}
 1627383078007	geckodriver	INFO	Listening on 127.0.0.1:48832
 1627383079263	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofilexTjMhA"

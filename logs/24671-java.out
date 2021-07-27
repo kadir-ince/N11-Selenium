@@ -8,18 +8,18 @@
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillPassword' and 'com.n11.gauge.Login.fillPassword'"}
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.moveToSecondPage' and 'com.n11.gauge.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.moveToSecondPage' and 'com.n11.gauge.Search.moveToSecondPage'"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.Search.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.addToFavorites' and 'com.n11.gauge.zAddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.addToFavorites' and 'com.n11.gauge.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.moveToSecondPage' and 'com.n11.gauge.zAddFavorite.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.moveToSecondPage' and 'com.n11.gauge.AddFavorite.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
@@ -67,7 +67,7 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1627384606436	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.zAddFavorite.addToFavorites"}
+{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.AddFavorite.addToFavorites"}
 1627384609403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://marionette/content/sync.js:237:19
 TimedPromise@chrome://marionette/content/sync.js:222:10

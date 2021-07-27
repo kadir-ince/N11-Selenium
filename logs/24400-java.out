@@ -12,10 +12,10 @@
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.addToFavorites' and 'com.n11.gauge.zAddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.addToFavorites' and 'com.n11.gauge.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.zAddFavorite.moveToSecondPage'"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.zAddFavorite.moveToSecondPage' and 'com.n11.gauge.zAddFavorite.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.AddFavorite.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.moveToSecondPage' and 'com.n11.gauge.AddFavorite.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
