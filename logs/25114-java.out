@@ -6,23 +6,23 @@
 {"logLevel":"debug","message":"started gRPC server on port 59849"}
 {"logLevel":"info","message":"Listening on port:59849"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillPassword' and 'com.n11.gauge.Login.fillPassword'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillPassword' and 'com.n11.gauge.pages.Login.fillPassword'"}
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to second page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.searchPhone' and 'com.n11.gauge.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillEmail' and 'com.n11.gauge.Login.fillEmail'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillEmail' and 'com.n11.gauge.pages.Login.fillEmail'"}
 {"logLevel":"debug","message":"Found Fill email input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.clickLoginButton' and 'com.n11.gauge.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click the login button in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
@@ -35,7 +35,7 @@
 {"logLevel":"debug","message":"\tClick the search button : public void clickSearchButton()"}
 {"logLevel":"debug","message":"\tFill password input {} : public void fillPassword(String userPassword)"}
 {"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
-{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
 1627385279759	geckodriver	INFO	Listening on 127.0.0.1:6887
 1627385280942	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileyMPZPv"
 1627385281717	Marionette	INFO	Marionette enabled
@@ -46,21 +46,21 @@ console.error: BackgroundUpdate:
 1627385284013	Marionette	WARN	TLS certificate errors will be ignored for this session
 Jul 27, 2021 2:28:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen"}
+{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.pages.HomePage.isOpen"}
 ----------------
 |Page is opened|
 ----------------
-{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.OpenHomePage.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.Login.fillEmail"}
-{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.Login.fillPassword"}
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.pages.Login.fillEmail"}
+{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.pages.Login.fillPassword"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.Login.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.Search.searchPhone"}
-{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.Search.clickSearchButton"}
+{"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.pages.Search.clickSearchButton"}
 1627385298012	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.Search.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

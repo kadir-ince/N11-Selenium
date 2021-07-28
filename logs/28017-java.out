@@ -6,33 +6,33 @@
 {"logLevel":"debug","message":"started gRPC server on port 64024"}
 {"logLevel":"info","message":"Listening on port:64024"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.moveToSecondPage' and 'com.n11.gauge.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to second page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.goToAccountPage' and 'com.n11.gauge.AddFavorite.goToAccountPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'"}
 {"logLevel":"debug","message":"Found Go to account page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.showFavorites.showFavoritesTab' and 'com.n11.gauge.showFavorites.showFavoritesTab'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showFavoritesTab' and 'com.n11.gauge.pages.showFavorites.showFavoritesTab'"}
 {"logLevel":"debug","message":"Found Click the favorites/lists link in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillEmail' and 'com.n11.gauge.Login.fillEmail'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillEmail' and 'com.n11.gauge.pages.Login.fillEmail'"}
 {"logLevel":"debug","message":"Found Fill email input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillPassword' and 'com.n11.gauge.Login.fillPassword'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillPassword' and 'com.n11.gauge.pages.Login.fillPassword'"}
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.showFavorites.deletePhone' and 'com.n11.gauge.showFavorites.deletePhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'"}
 {"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.AddFavorite.addToFavorites' and 'com.n11.gauge.AddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.clickSearchButton' and 'com.n11.gauge.Search.clickSearchButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Search.searchPhone' and 'com.n11.gauge.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.showFavorites.showAllFavorites' and 'com.n11.gauge.showFavorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'"}
 {"logLevel":"debug","message":"Found Click the favorites link in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.clickLoginButton' and 'com.n11.gauge.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to login button in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
@@ -50,7 +50,7 @@
 {"logLevel":"debug","message":"\tDelete phone in favorites : public void deletePhone()"}
 {"logLevel":"debug","message":"\tClick the search button : public void clickSearchButton()"}
 {"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
-{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
 1627392252884	geckodriver	INFO	Listening on 127.0.0.1:47116
 1627392254043	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileQlSp0b"
 1627392254582	Marionette	INFO	Marionette enabled
@@ -61,33 +61,33 @@ console.error: BackgroundUpdate:
 1627392256462	Marionette	WARN	TLS certificate errors will be ignored for this session
 Jul 27, 2021 4:24:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen"}
+{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.pages.HomePage.isOpen"}
 ----------------
 |Page is opened|
 ----------------
-{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.OpenHomePage.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.Login.fillEmail"}
-{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.Login.fillPassword"}
-{"logLevel":"debug","message":"Executing 'Click to login button' using 'class com.n11.gauge.Login.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.Search.searchPhone"}
-{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.Search.clickSearchButton"}
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.pages.Login.fillEmail"}
+{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.pages.Login.fillPassword"}
+{"logLevel":"debug","message":"Executing 'Click to login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.pages.Search.clickSearchButton"}
 JavaScript error: , line 0: uncaught exception: undefined
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.Search.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.AddFavorite.addToFavorites"}
-{"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.AddFavorite.goToAccountPage"}
+{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.pages.AddFavorite.addToFavorites"}
+{"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.pages.AddFavorite.goToAccountPage"}
 1627392270561	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.showFavorites.showFavoritesTab"}
+{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.showFavorites.showFavoritesTab"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Click the favorites link' using 'class com.n11.gauge.showFavorites.showAllFavorites"}
+{"logLevel":"debug","message":"Executing 'Click the favorites link' using 'class com.n11.gauge.pages.showFavorites.showAllFavorites"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.showFavorites.deletePhone"}
+{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.showFavorites.deletePhone"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

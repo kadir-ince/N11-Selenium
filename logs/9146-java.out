@@ -6,22 +6,22 @@
 {"logLevel":"debug","message":"started gRPC server on port 64735"}
 {"logLevel":"info","message":"Listening on port:64735"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
 {"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
 {"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
-{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
 Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 3883
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 Jul 27, 2021 8:48:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen"}
+{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.pages.HomePage.isOpen"}
 ----------------
 |Page is opened|
 ----------------

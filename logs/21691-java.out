@@ -6,17 +6,17 @@
 {"logLevel":"debug","message":"started gRPC server on port 50858"}
 {"logLevel":"info","message":"Listening on port:50858"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillPassword' and 'com.n11.gauge.Login.fillPassword'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillPassword' and 'com.n11.gauge.pages.Login.fillPassword'"}
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.navigateTo' and 'com.n11.gauge.OpenHomePage.navigateTo'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.isOpen' and 'com.n11.gauge.OpenHomePage.isOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.OpenHomePage.clickLoginButton' and 'com.n11.gauge.OpenHomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.fillEmail' and 'com.n11.gauge.Login.fillEmail'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillEmail' and 'com.n11.gauge.pages.Login.fillEmail'"}
 {"logLevel":"debug","message":"Found Fill email input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.Login.clickLoginButton' and 'com.n11.gauge.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click the login button in current project scope."}
 {"logLevel":"debug","message":"Scanning packages for hooks"}
 {"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
@@ -26,21 +26,21 @@
 {"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
 {"logLevel":"debug","message":"\tFill password input {} : public void fillPassword(String userPassword)"}
 {"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
-{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.OpenHomePage.navigateTo"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
 Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 7108
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 Jul 27, 2021 1:14:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.OpenHomePage.isOpen"}
+{"logLevel":"debug","message":"Executing 'Check it is open' using 'class com.n11.gauge.pages.HomePage.isOpen"}
 ----------------
 |Page is opened|
 ----------------
-{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.OpenHomePage.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.Login.fillEmail"}
-{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.Login.fillPassword"}
-{"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.Login.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.pages.Login.fillEmail"}
+{"logLevel":"debug","message":"Executing 'Fill password input {}' using 'class com.n11.gauge.pages.Login.fillPassword"}
+{"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}
