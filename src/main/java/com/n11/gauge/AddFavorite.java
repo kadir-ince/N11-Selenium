@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 
 public class AddFavorite {
 
-    By thirdPhone = By.xpath("/html/body/div[1]/div[3]/div/div/div[2]/section[2]/div[2]/ul/li[3]/div/div[1]/span");
-    By accountLink = By.cssSelector("a.menuTitle");
+    By thirdPhone = By.xpath("//*[@class=\"textImg followBtn\"]");
+    By accountLink = By.xpath("//*[@class=\"myAccount\"]//*[@class=\"menuTitle\"]");
 
     @Step("Add third phone to favorites")
     public void addToFavorites() {

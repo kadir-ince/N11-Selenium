@@ -5,9 +5,10 @@ import org.openqa.selenium.By;
 
 
 public class Login {
+
     By emailField = By.xpath("//*[@id=\"email\"]");
     By passwordField = By.xpath("//*[@id=\"password\"]");
-    By loginButton = By.xpath("/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/div/form/div[4]");
+    By loginButton = By.xpath("//*[@id=\"loginButton\"]");
 
     @Step("Login to n11 with <email> and <password>")
     public void fillInputs(String userEmail, String userPassword) {

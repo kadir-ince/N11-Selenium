@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class OpenHomePage {
 
     public static WebDriver driver;
-    By loginButton = By.xpath("//*[@id=\"header\"]/div/div/div[2]/div[2]/div[2]/div/div/a[1]");
+    By loginPageButton = By.xpath("//*[@id=\"header\"]//*[@class=\"myAccount\"]//*[@class=\"menuTitle nobg\"]");
 
     @Step("Navigate to <siteURL>")
     public void navigateTo(String url) {
@@ -26,6 +26,6 @@ public class OpenHomePage {
 
     @Step("Click to the login button")
     public void clickLoginButton() {
-        driver.findElement(loginButton).click();
+        driver.findElement(loginPageButton).click();
     }
 }

@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 public class Search {
 
     By searchInput = By.xpath("//*[@id=\"searchData\"]");
-    By clickButton = By.xpath("//*[@id=\"header\"]/div/div/div[2]/div[1]/div/a");
-    By secondPage = By.cssSelector(".pagination > a:nth-child(2)");
+    By clickButton = By.xpath("//*[@class=\"searchBtn\"]");
+    By secondPage = By.xpath("//*[@class=\"pagination\"]//a[text()=\"2\"]"); // 2nd page link's not have any attribute so we're catching with text
 
     @Step("Searching <Samsung> Phone")
     public void searchPhone(String phoneName) {

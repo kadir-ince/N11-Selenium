@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 
 public class showFavorites {
 
-    By favoritesTabLink = By.cssSelector(".accNav > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)");
-    By allFavoritesLink = By.cssSelector("li.wishGroupListItem:nth-child(1) > div:nth-child(1) > a:nth-child(1)");
-    By deleteFavorites = By.cssSelector(".deleteProFromFavorites");
+    By favoritesTabLink = By.xpath("//*[@class=\"accNav\"]//a[text()=\"Favorilerim / Listelerim\"]"); // favorites link's not have any attribute so we're catching with text
+    By allFavoritesLink = By.xpath("//a[contains(@href,\"favorilerim\")]");
+    By deleteFavorites = By.xpath("//*[@class=\"deleteProFromFavorites\"]");
 
 
     @Step("Show all favorites")

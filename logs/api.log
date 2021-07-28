@@ -2668,3 +2668,86 @@ tStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate
 28-07-2021 09:03:22.534 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Searching {} Phone" parameterizedStepValue:"Searching <Samsung> Phone" parameters:"Samsung"}}
 28-07-2021 09:03:38.895 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
 28-07-2021 09:03:39.043 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+28-07-2021 09:40:55.692 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11/specs/login.cpt
+28-07-2021 09:40:56.280 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"step1"}
+28-07-2021 09:40:56.281 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"step1" parameterizedStepValue:"step1"}}
+28-07-2021 09:40:56.449 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* step1"}
+28-07-2021 09:40:56.450 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* step1" parameterizedStepValue:"* step1"}}
+28-07-2021 09:40:56.451 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* step2"}
+28-07-2021 09:40:56.451 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* step2" parameterizedStepValue:"* step2"}}
+28-07-2021 09:40:56.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Concept Heading"}
+28-07-2021 09:40:56.535 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Concept Heading" parameterizedStepValue:"Concept Heading"}}
+28-07-2021 09:40:56.536 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"step2"}
+28-07-2021 09:40:56.537 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"step2" parameterizedStepValue:"step2"}}
+28-07-2021 09:41:07.829 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Login"}
+28-07-2021 09:41:07.829 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login" parameterizedStepValue:"Login"}}
+28-07-2021 09:41:28.933 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/addFavorite.spec
+28-07-2021 09:41:32.309 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/addFavorite.spec
+28-07-2021 09:41:35.041 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.041 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.048 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.049 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.105 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.106 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.106 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.106 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.107 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.162 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.162 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.163 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.163 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.163 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.163 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.304 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.304 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.307 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.308 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.432 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.432 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.433 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.433 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.434 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.434 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.532 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.534 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{}
+28-07-2021 09:41:35.534 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{}}
+28-07-2021 09:41:35.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"L"}
+28-07-2021 09:41:35.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"L" parameterizedStepValue:"L"}}
+28-07-2021 09:41:35.708 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2021 09:41:35.710 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Check if the page open" parameterizedStepValue:"Check if the page open"} allSteps:{stepValue:"Click to the login button" parameterizedStepValue:"Click to the login button"} allSteps:{stepValue:"Move to second page" parameterizedStepValue:"Move to second page"} allSteps:{stepValue:"Check if open second page" parameterizedStepValue:"Check if open second page"} allSteps:{stepValue:"Check if favorites open" parameterizedStepValue:"Check if favorites open"} allSteps:{stepValue:"Add third phone to favorites" parameterizedStepValue:"Add third phone to favorites"} allSteps:{stepValue:"Go to account page" parameterizedStepValue:"Go to account page"} allSteps:{stepValue:"Check if delete phone" parameterizedStepValue:"Check if delete phone"} allSteps:{stepValue:"Show all favorites" parameterizedStepValue:"Show all favorites"} allSteps:{stepValue:"Delete phone in favorites" parameterizedStepValue:"Delete phone in favorites"} allSteps:{stepValue:"Searching {} Phone" parameterizedStepValue:"Searching <Samsung> Phone" parameters:"Samsung"} allSteps:{stepValue:"Check if the searching samsung phone" parameterizedStepValue:"Check if the searching samsung phone"}}
+28-07-2021 09:41:35.716 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2021 09:41:35.716 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2021 09:41:35.939 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Lo"}
+28-07-2021 09:41:35.939 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Lo" parameterizedStepValue:"Lo"}}
+28-07-2021 09:41:36.266 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Logi"}
+28-07-2021 09:41:36.267 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Logi" parameterizedStepValue:"Logi"}}
+28-07-2021 09:41:36.334 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2021 09:41:36.334 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Click to the login button" parameterizedStepValue:"Click to the login button"} allSteps:{stepValue:"Show all favorites" parameterizedStepValue:"Show all favorites"} allSteps:{stepValue:"Check if delete phone" parameterizedStepValue:"Check if delete phone"} allSteps:{stepValue:"Add third phone to favorites" parameterizedStepValue:"Add third phone to favorites"} allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Check if the page open" parameterizedStepValue:"Check if the page open"} allSteps:{stepValue:"Move to second page" parameterizedStepValue:"Move to second page"} allSteps:{stepValue:"Check if open second page" parameterizedStepValue:"Check if open second page"} allSteps:{stepValue:"Check if favorites open" parameterizedStepValue:"Check if favorites open"} allSteps:{stepValue:"Delete phone in favorites" parameterizedStepValue:"Delete phone in favorites"} allSteps:{stepValue:"Go to account page" parameterizedStepValue:"Go to account page"} allSteps:{stepValue:"Searching {} Phone" parameterizedStepValue:"Searching <Samsung> Phone" parameters:"Samsung"} allSteps:{stepValue:"Check if the searching samsung phone" parameterizedStepValue:"Check if the searching samsung phone"}}
+28-07-2021 09:41:36.335 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2021 09:41:36.335 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2021 09:41:36.612 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login"}
+28-07-2021 09:41:36.612 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login" parameterizedStepValue:"Login"}}
+28-07-2021 09:41:36.630 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:{}
+28-07-2021 09:41:36.630 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:{allSteps:{stepValue:"Add third phone to favorites" parameterizedStepValue:"Add third phone to favorites"} allSteps:{stepValue:"Go to account page" parameterizedStepValue:"Go to account page"} allSteps:{stepValue:"Click to the login button" parameterizedStepValue:"Click to the login button"} allSteps:{stepValue:"Searching {} Phone" parameterizedStepValue:"Searching <Samsung> Phone" parameters:"Samsung"} allSteps:{stepValue:"Check if open second page" parameterizedStepValue:"Check if open second page"} allSteps:{stepValue:"Show all favorites" parameterizedStepValue:"Show all favorites"} allSteps:{stepValue:"Check if favorites open" parameterizedStepValue:"Check if favorites open"} allSteps:{stepValue:"Check if delete phone" parameterizedStepValue:"Check if delete phone"} allSteps:{stepValue:"Check if the searching samsung phone" parameterizedStepValue:"Check if the searching samsung phone"} allSteps:{stepValue:"Move to second page" parameterizedStepValue:"Move to second page"} allSteps:{stepValue:"Delete phone in favorites" parameterizedStepValue:"Delete phone in favorites"} allSteps:{stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://n11.com>" parameters:"https://n11.com"} allSteps:{stepValue:"Check if the page open" parameterizedStepValue:"Check if the page open"}}
+28-07-2021 09:41:36.630 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
+28-07-2021 09:41:36.630 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
+28-07-2021 09:42:07.188 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/login
+28-07-2021 09:42:07.189 [Gauge] [DEBUG] Found 0 files
+28-07-2021 09:42:12.592 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11/specs/login/login.cpt
+28-07-2021 09:42:12.593 [Gauge] [DEBUG] Concept file removed: /Users/kadirince/Desktop/n11/specs/login.cpt
+28-07-2021 09:42:12.695 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login/login.spec
+28-07-2021 09:42:12.701 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/login.spec
+28-07-2021 09:42:49.941 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/addFavorite.spec
+28-07-2021 09:53:24.406 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11/specs/login/login.cpt
+28-07-2021 09:53:24.409 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/kadirince/Desktop/n11/specs/login/login.cpt:4 Concept should have atleast one step => 'Login']
+28-07-2021 09:53:27.673 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11/specs/login/login.cpt
+28-07-2021 09:53:27.673 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/kadirince/Desktop/n11/specs/login/login.cpt:3 Concept should have atleast one step => 'Login']
+28-07-2021 09:53:33.207 [Gauge] [DEBUG] Concept file added / modified: /Users/kadirince/Desktop/n11/specs/login/login.cpt
+28-07-2021 09:53:33.209 [Gauge] [ERROR] Parse failure: [[ParseError] /Users/kadirince/Desktop/n11/specs/login/login.cpt:1 Concept should have atleast one step => 'Login']
+28-07-2021 09:54:06.143 [Gauge] [DEBUG] Concept file removed: /Users/kadirince/Desktop/n11/specs/login/login.cpt
+28-07-2021 09:54:11.784 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/login.spec
+28-07-2021 09:54:11.785 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/login/login.spec
