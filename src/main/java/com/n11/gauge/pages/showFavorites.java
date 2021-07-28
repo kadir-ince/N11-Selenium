@@ -1,13 +1,16 @@
 package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
+
 import static com.n11.gauge.constants.ShowFavoritesConstants.*;
+import static com.n11.gauge.Setup.Setup.*;
+
 public class showFavorites {
 
     @Step("Show all favorites")
     public void showAllFavorites() {
-        HomePage.driver.findElement(FAVORITES_TAB_LINK).click();
-        HomePage.driver.findElement(ALL_FAVORITES_LINK).click();
+        driver.findElement(FAVORITES_TAB_LINK).click();
+        driver.findElement(ALL_FAVORITES_LINK).click();
     }
 
     @Step("Check if favorites open")
@@ -17,7 +20,7 @@ public class showFavorites {
 
     @Step("Delete phone in favorites")
     public void deletePhone() {
-        HomePage.driver.findElement(DELETE_FAVORITES).click();
+        driver.findElement(DELETE_FAVORITES).click();
     }
 
     @Step("Check if delete phone")
