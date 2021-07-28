@@ -19,13 +19,9 @@ public class OpenHomePage {
         driver.manage().window().maximize();
     }
 
-    @Step("Check it is open")
+    @Step("Check if the page open")
     public void isOpen() {
-        if (driver.getTitle() != null) {
-            System.out.println("----------------");
-            System.out.println("|Page is opened|");
-            System.out.println("----------------");
-        }
+        // Check
     }
 
     @Step("Click to the login button")

@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Add to Favorite":["specs/addFavorite.html"],"HomePage to Login Page":["specs/homePage.html"],"Login":["specs/login.html"],"Searching Phone":["specs/search.html"],"Specification Heading":["specs/showFavorites.html"]}};
+var index = {"Tags":{},"Specs":{"Add to Favorite And Go to Account Page":["specs/addFavorite.html"],"HomePage to Login Page":["specs/homePage.html"],"Login":["specs/login.html"],"Searching Phone And Go to 2nd Page":["specs/search.html"],"Show Favorites and Delete Phone":["specs/showFavorites.html"]}};

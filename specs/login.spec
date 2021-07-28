@@ -1,9 +1,8 @@
 Login
-=====================
+=====
 
-## Fill email and password fields
-* Fill email input "selenium@mailinator.com"
-* Fill password input "test1234"
-
-## Click to Login Button
+Login to N11
+------------
+* Login to n11 with "selenium@mailinator.com" and "test1234"
 * Click to login button
+* Check if the user is logged in
