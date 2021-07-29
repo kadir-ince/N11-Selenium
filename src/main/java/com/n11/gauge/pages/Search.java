@@ -2,9 +2,11 @@ package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
 
-import static com.n11.gauge.Base.BaseMethods.*;
+import static com.n11.gauge.base.BaseMethods.click;
+import static com.n11.gauge.base.BaseMethods.sendKeys;
+import static com.n11.gauge.base.Setup.driver;
 import static com.n11.gauge.constants.SearchConstants.*;
-import static com.n11.gauge.Base.Setup.*;
+import static org.junit.Assert.assertEquals;
 
 public class Search {
 
@@ -14,9 +16,9 @@ public class Search {
         click(CLICK_BUTTON);
     }
 
-    @Step("Check if the searching samsung phone")
+    @Step("Check if the searching Samsung phone")
     public void checkSearch() {
-        // Check
+        assertEquals(driver.getTitle(), "Samsung - n11.com");
     }
 
     @Step("Move to second page")
@@ -26,6 +28,6 @@ public class Search {
 
     @Step("Check if open second page")
     public void checkIsPageOpen() {
-        // Check
+        assertEquals(driver.getCurrentUrl(), "https://www.n11.com/arama?q=Samsung&pg=2");
     }
 }

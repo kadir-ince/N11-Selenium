@@ -20,7 +20,7 @@
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showFavoritesTab' and 'com.n11.gauge.pages.showFavorites.showFavoritesTab'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showFavoritesTab' and 'com.n11.gauge.pages.Favorites.showFavoritesTab'"}
 {"logLevel":"debug","message":"Found Click the favorites/lists link in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}

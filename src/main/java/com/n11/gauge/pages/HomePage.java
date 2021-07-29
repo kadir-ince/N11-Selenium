@@ -2,9 +2,10 @@ package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
 
-import static com.n11.gauge.Base.BaseMethods.click;
-import static com.n11.gauge.Base.Setup.*;
+import static com.n11.gauge.base.BaseMethods.click;
+import static com.n11.gauge.base.Setup.*;
 import static com.n11.gauge.constants.HomePageConstans.*;
+import static org.junit.Assert.assertEquals;
 
 public class HomePage {
 
@@ -14,9 +15,9 @@ public class HomePage {
         setupDriver(url);
     }
 
-    @Step("Check if the page open")
+    @Step("Check if the open homepage")
     public void isOpen() {
-        // Check
+        assertEquals(driver.getCurrentUrl(),"https://www.n11.com/");
     }
 
     @Step("Click to the login button")

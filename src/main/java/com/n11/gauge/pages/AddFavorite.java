@@ -2,7 +2,7 @@ package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
 
-import static com.n11.gauge.Base.BaseMethods.click;
+import static com.n11.gauge.base.BaseMethods.click;
 import static com.n11.gauge.constants.AddFavoriteConstants.*;
 
 public class AddFavorite {

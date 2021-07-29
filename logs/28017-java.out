@@ -12,7 +12,7 @@
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'"}
 {"logLevel":"debug","message":"Found Go to account page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showFavoritesTab' and 'com.n11.gauge.pages.showFavorites.showFavoritesTab'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showFavoritesTab' and 'com.n11.gauge.pages.Favorites.showFavoritesTab'"}
 {"logLevel":"debug","message":"Found Click the favorites/lists link in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
@@ -20,7 +20,7 @@
 {"logLevel":"debug","message":"Found Fill email input {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillPassword' and 'com.n11.gauge.pages.Login.fillPassword'"}
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
 {"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
@@ -30,7 +30,7 @@
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
 {"logLevel":"debug","message":"Found Click the favorites link in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to login button in current project scope."}
@@ -83,11 +83,11 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.showFavorites.showFavoritesTab"}
+{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.Favorites.showFavoritesTab"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Click the favorites link' using 'class com.n11.gauge.pages.showFavorites.showAllFavorites"}
+{"logLevel":"debug","message":"Executing 'Click the favorites link' using 'class com.n11.gauge.pages.Favorites.showAllFavorites"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.showFavorites.deletePhone"}
+{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.Favorites.deletePhone"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

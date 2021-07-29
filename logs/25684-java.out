@@ -20,7 +20,7 @@
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showFavoritesTab' and 'com.n11.gauge.pages.showFavorites.showFavoritesTab'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showFavoritesTab' and 'com.n11.gauge.pages.Favorites.showFavoritesTab'"}
 {"logLevel":"debug","message":"Found Click the favorites/lists link in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
@@ -81,7 +81,7 @@ TimedPromise@chrome://marionette/content/sync.js:222:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
 webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 {"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.pages.AddFavorite.goToAccountPage"}
-{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.showFavorites.showFavoritesTab"}
+{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.Favorites.showFavoritesTab"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

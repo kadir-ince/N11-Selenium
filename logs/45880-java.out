@@ -6,7 +6,7 @@
 {"logLevel":"debug","message":"started gRPC server on port 53897"}
 {"logLevel":"info","message":"Listening on port:53897"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen' and 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkFavoritesOpen' and 'com.n11.gauge.pages.Favorites.checkFavoritesOpen'"}
 {"logLevel":"debug","message":"Found Check if favorites open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
@@ -22,17 +22,17 @@
 {"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check if the page open in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.checkDeletePhone' and 'com.n11.gauge.pages.showFavorites.checkDeletePhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkDeletePhone' and 'com.n11.gauge.pages.Favorites.checkDeletePhone'"}
 {"logLevel":"debug","message":"Found Check if delete phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
 {"logLevel":"debug","message":"Found Check if the searching samsung phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
 {"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
 {"logLevel":"debug","message":"Found Show all favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}

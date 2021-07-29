@@ -12,7 +12,7 @@
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'"}
 {"logLevel":"debug","message":"Found Go to account page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showFavoritesTab' and 'com.n11.gauge.pages.showFavorites.showFavoritesTab'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showFavoritesTab' and 'com.n11.gauge.pages.Favorites.showFavoritesTab'"}
 {"logLevel":"debug","message":"Found Click the favorites/lists link in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
@@ -28,7 +28,7 @@
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
 {"logLevel":"debug","message":"Found Click the favorites link in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click the login button in current project scope."}
@@ -70,8 +70,8 @@ INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
 {"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.pages.AddFavorite.addToFavorites"}
 {"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.pages.AddFavorite.goToAccountPage"}
-{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.showFavorites.showFavoritesTab"}
-{"logLevel":"debug","message":"Executing 'Click the favorites link' using 'class com.n11.gauge.pages.showFavorites.showAllFavorites"}
+{"logLevel":"debug","message":"Executing 'Click the favorites/lists link' using 'class com.n11.gauge.pages.Favorites.showFavoritesTab"}
+{"logLevel":"debug","message":"Executing 'Click the favorites link' using 'class com.n11.gauge.pages.Favorites.showAllFavorites"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

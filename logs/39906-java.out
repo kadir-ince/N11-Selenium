@@ -14,9 +14,9 @@
 {"logLevel":"debug","message":"Found Go to account page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'"}
 {"logLevel":"debug","message":"Found Check if open second page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen' and 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkFavoritesOpen' and 'com.n11.gauge.pages.Favorites.checkFavoritesOpen'"}
 {"logLevel":"debug","message":"Found Check if favorites open in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.checkDeletePhone' and 'com.n11.gauge.pages.showFavorites.checkDeletePhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkDeletePhone' and 'com.n11.gauge.pages.Favorites.checkDeletePhone'"}
 {"logLevel":"debug","message":"Found Check if delete phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
@@ -24,7 +24,7 @@
 {"logLevel":"debug","message":"Found Check if the page open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.checkLogin' and 'com.n11.gauge.pages.Login.checkLogin'"}
 {"logLevel":"debug","message":"Found Check if the user is logged in in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
 {"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
@@ -34,7 +34,7 @@
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
 {"logLevel":"debug","message":"Found Check if the searching samsung phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
 {"logLevel":"debug","message":"Found Show all favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to login button in current project scope."}
@@ -81,9 +81,9 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 {"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.pages.AddFavorite.goToAccountPage"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Show all favorites' using 'class com.n11.gauge.pages.showFavorites.showAllFavorites"}
-{"logLevel":"debug","message":"Executing 'Check if favorites open' using 'class com.n11.gauge.pages.showFavorites.checkFavoritesOpen"}
-{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.showFavorites.deletePhone"}
+{"logLevel":"debug","message":"Executing 'Show all favorites' using 'class com.n11.gauge.pages.Favorites.showAllFavorites"}
+{"logLevel":"debug","message":"Executing 'Check if favorites open' using 'class com.n11.gauge.pages.Favorites.checkFavoritesOpen"}
+{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.Favorites.deletePhone"}
 JavaScript error: https://www.n11.com/hesabim/favorilerim line 29 > injectedScript, line 4: TypeError: a[0] is undefined
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}

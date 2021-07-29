@@ -2,8 +2,10 @@ package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
 
-import static com.n11.gauge.Base.BaseMethods.*;
+import static com.n11.gauge.base.BaseMethods.*;
+import static com.n11.gauge.base.Setup.*;
 import static com.n11.gauge.constants.LoginConstants.*;
+import static org.junit.Assert.assertEquals;
 
 public class Login {
 
@@ -20,6 +22,6 @@ public class Login {
 
     @Step("Check if the user is logged in")
     public void checkLogin() {
-        // Check
+        assertEquals(driver.getCurrentUrl(),"https://www.n11.com/");
     }
 }

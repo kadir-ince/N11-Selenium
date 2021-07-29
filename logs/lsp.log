@@ -1,0 +1,110 @@
+29-07-2021 11:17:54.026 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+29-07-2021 11:17:54.031 [Gauge] [INFO] Initializing specs cache with 5 specs
+29-07-2021 11:17:54.032 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/addFavorite.spec
+29-07-2021 11:17:54.032 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/homePage.spec
+29-07-2021 11:17:54.032 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/login.spec
+29-07-2021 11:17:54.032 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/showAndDeleteFavorites.spec
+29-07-2021 11:17:54.032 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/search.spec
+29-07-2021 11:17:54.032 [Gauge] [INFO] Initializing steps cache with 5 steps
+29-07-2021 11:17:54.034 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs
+29-07-2021 11:17:54.034 [Gauge] [DEBUG] Found 6 files
+29-07-2021 11:17:54.034 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/login
+29-07-2021 11:17:54.034 [Gauge] [DEBUG] Found 0 files
+29-07-2021 11:17:54.035 [Gauge] [INFO] Starting language runner
+29-07-2021 11:17:54.082 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-07-2021 11:17:54.082 [java] [DEBUG] PATH: /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/kadirince/Developer/flutter/bin:/Users/kadirince/.gauge/plugins/screenshot/0.1.0
+29-07-2021 11:17:54.082 [java] [DEBUG] JAVA_HOME: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_project_root: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_parallel_streams_count: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_reports_dir: reports
+29-07-2021 11:17:54.082 [java] [DEBUG] overwrite_reports: true
+29-07-2021 11:17:54.082 [java] [DEBUG] logs_directory: logs
+29-07-2021 11:17:54.082 [java] [DEBUG] enable_multithreading: false
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_specs_dir: specs
+29-07-2021 11:17:54.082 [java] [DEBUG] csv_delimiter: ,
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_java_home: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_custom_build_path: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_additional_libs: libs/*
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_jvm_args: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_custom_compile_dir: 
+29-07-2021 11:17:54.082 [java] [DEBUG] gauge_clear_state_level: scenario
+29-07-2021 11:17:54.082 [java] [DEBUG] ***** END *****
+29-07-2021 11:18:01.749 [java] [DEBUG] classpath set to /Users/kadirince/Desktop/n11/target/test-classes:/Users/kadirince/Desktop/n11/target/classes:/Users/kadirince/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/Users/kadirince/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/kadirince/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/kadirince/.m2/repository/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/kadirince/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/kadirince/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/kadirince/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kadirince/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kadirince/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/Users/kadirince/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/kadirince/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/kadirince/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/kadirince/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/kadirince/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/kadirince/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/kadirince/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/kadirince/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/Users/kadirince/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/Users/kadirince/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/Users/kadirince/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/Users/kadirince/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/kadirince/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/kadirince/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/kadirince/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/kadirince/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/kadirince/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kadirince/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/kadirince/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kadirince/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/kadirince/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/kadirince/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/kadirince/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/kadirince/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+29-07-2021 11:18:01.749 [java] [DEBUG] found java executable in java
+29-07-2021 11:18:01.750 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-07-2021 11:18:01.750 [java] [DEBUG] stdout/stderr is logged to logs/48890-java.out
+29-07-2021 11:18:02.230 [java] [DEBUG] multithreading is set to false
+29-07-2021 11:18:03.413 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-07-2021 11:18:04.603 [java] [DEBUG] gauge-java took 2373milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-07-2021 11:18:04.603 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2373
+29-07-2021 11:18:04.604 [java] [DEBUG] starting gRPC server...
+29-07-2021 11:18:04.910 [java] [DEBUG] started gRPC server on port 57639
+29-07-2021 11:18:04.910 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57639
+29-07-2021 11:18:05.060 [Gauge] [DEBUG] Successfully made the connection with runner with port: 57639
+29-07-2021 11:18:05.060 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+29-07-2021 11:18:05.218 [Gauge] [DEBUG] Validation started.
+29-07-2021 11:18:09.831 [java] [DEBUG] Scanning packages for steps
+29-07-2021 11:18:09.885 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Favorites.checkFavoritesOpen' and 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen'
+29-07-2021 11:18:09.886 [java] [DEBUG] Loading Check if favorites openvia reflected sources.
+29-07-2021 11:18:09.887 [java] [DEBUG] Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'
+29-07-2021 11:18:09.887 [java] [DEBUG] Found Add third phone to favorites in current project scope.
+29-07-2021 11:18:09.888 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Login.checkLogin' and 'com.n11.gauge.pages.Login.checkLogin'
+29-07-2021 11:18:09.888 [java] [DEBUG] Found Check if the user is logged in in current project scope.
+29-07-2021 11:18:09.888 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'
+29-07-2021 11:18:09.889 [java] [DEBUG] Found Click to login button in current project scope.
+29-07-2021 11:18:09.890 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'
+29-07-2021 11:18:09.890 [java] [DEBUG] Found Move to second page in current project scope.
+29-07-2021 11:18:09.890 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'
+29-07-2021 11:18:09.891 [java] [DEBUG] Found Check if open second page in current project scope.
+29-07-2021 11:18:09.891 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'
+29-07-2021 11:18:09.891 [java] [DEBUG] Found Login to n11 with {} and {} in current project scope.
+29-07-2021 11:18:09.892 [java] [DEBUG] Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'
+29-07-2021 11:18:09.892 [java] [DEBUG] Found Check if the page open in current project scope.
+29-07-2021 11:18:09.895 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Favorites.checkDeletePhone' and 'com.n11.gauge.pages.showFavorites.checkDeletePhone'
+29-07-2021 11:18:09.895 [java] [DEBUG] Loading Check if delete phonevia reflected sources.
+29-07-2021 11:18:09.895 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'
+29-07-2021 11:18:09.896 [java] [DEBUG] Found Check if the searching samsung phone in current project scope.
+29-07-2021 11:18:09.896 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'
+29-07-2021 11:18:09.896 [java] [DEBUG] Found Searching {} Phone in current project scope.
+29-07-2021 11:18:09.896 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'
+29-07-2021 11:18:09.896 [java] [DEBUG] Loading Delete phone in favoritesvia reflected sources.
+29-07-2021 11:18:09.897 [java] [DEBUG] Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'
+29-07-2021 11:18:09.897 [java] [DEBUG] Found Go to account page in current project scope.
+29-07-2021 11:18:09.898 [java] [DEBUG] Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'
+29-07-2021 11:18:09.898 [java] [DEBUG] Found Navigate to {} in current project scope.
+29-07-2021 11:18:09.898 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'
+29-07-2021 11:18:09.898 [java] [DEBUG] Loading Show all favoritesvia reflected sources.
+29-07-2021 11:18:09.899 [java] [DEBUG] Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'
+29-07-2021 11:18:09.900 [java] [DEBUG] Found Click to the login button in current project scope.
+29-07-2021 11:18:09.900 [java] [DEBUG] Scanning packages for hooks
+29-07-2021 11:18:09.906 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-07-2021 11:18:09.906 [java] [DEBUG] 	Searching {} Phone : public void searchPhone(String phoneName)
+29-07-2021 11:18:09.906 [java] [DEBUG] 	Click to login button : public void clickLoginButton()
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Move to second page : public void moveToSecondPage()
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Show all favorites : public void showAllFavorites()
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Check if the user is logged in : public void checkLogin()
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Navigate to {} : public void navigateTo(String url)
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Go to account page : public void goToAccountPage()
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Login to n11 with {} and {} : public void fillInputs(String userEmail, String userPassword)
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Check if favorites open : public void checkFavoritesOpen()
+29-07-2021 11:18:09.907 [java] [DEBUG] 	Add third phone to favorites : public void addToFavorites()
+29-07-2021 11:18:09.908 [java] [DEBUG] 	Click to the login button : public void clickLoginButton()
+29-07-2021 11:18:09.908 [java] [DEBUG] 	Check if the page open : public void isOpen()
+29-07-2021 11:18:09.908 [java] [DEBUG] 	Check if delete phone : public void checkDeletePhone()
+29-07-2021 11:18:09.908 [java] [DEBUG] 	Check if the searching samsung phone : public void checkSearch()
+29-07-2021 11:18:09.908 [java] [DEBUG] 	Delete phone in favorites : public void deletePhone()
+29-07-2021 11:18:09.908 [java] [DEBUG] 	Check if open second page : public void checkIsPageOpen()
+29-07-2021 11:18:14.419 [Gauge] [DEBUG] Validation completed.
+29-07-2021 11:18:14.426 [Gauge] [DEBUG] Validation started.
+29-07-2021 11:18:14.476 [Gauge] [DEBUG] Validation completed.
+29-07-2021 11:18:16.748 [Gauge] [DEBUG] Validation started.
+29-07-2021 11:18:16.781 [Gauge] [DEBUG] Validation completed.
+29-07-2021 11:18:19.453 [Gauge] [DEBUG] Validation started.
+29-07-2021 11:18:19.486 [Gauge] [DEBUG] Validation completed.
+29-07-2021 11:20:01.202 [java] [DEBUG] Killing Java runner...
+29-07-2021 11:20:01.204 [java] [DEBUG] Stopping execution pool...
+29-07-2021 11:20:01.204 [java] [DEBUG] Shutting down grpc server...
+29-07-2021 11:20:01.253 [java] [DEBUG] Runner killed gracefully.
+29-07-2021 11:20:01.685 [Gauge] [DEBUG] Runner with PID:48890 has exited
+29-07-2021 11:20:01.699 [Gauge] [INFO] Connection closed
+29-07-2021 11:20:01.699 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
