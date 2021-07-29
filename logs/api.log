@@ -2804,3 +2804,6 @@ tStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Navigate
 28-07-2021 15:37:00.411 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Searching {} Phone" parameterizedStepValue:"Searching <Samsung> Phone" parameters:"Samsung"}}
 28-07-2021 15:41:49.085 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/showAndDeleteFavorites.spec
 28-07-2021 15:41:49.087 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/showFavorites.spec
+29-07-2021 08:47:20.458 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/addFavorite.spec
+29-07-2021 08:52:59.900 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/addFavorite.spec
+29-07-2021 08:55:49.954 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/addFavorite.spec

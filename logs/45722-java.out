@@ -1,0 +1,78 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 866milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 866"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53535"}
+{"logLevel":"info","message":"Listening on port:53535"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen' and 'com.n11.gauge.pages.showFavorites.checkFavoritesOpen'"}
+{"logLevel":"debug","message":"Found Check if favorites open in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.checkLogin' and 'com.n11.gauge.pages.Login.checkLogin'"}
+{"logLevel":"debug","message":"Found Check if the user is logged in in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Found Move to second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'"}
+{"logLevel":"debug","message":"Found Check if open second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'"}
+{"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
+{"logLevel":"debug","message":"Found Check if the page open in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.checkDeletePhone' and 'com.n11.gauge.pages.showFavorites.checkDeletePhone'"}
+{"logLevel":"debug","message":"Found Check if delete phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
+{"logLevel":"debug","message":"Found Check if the searching samsung phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'"}
+{"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.showFavorites.showAllFavorites' and 'com.n11.gauge.pages.showFavorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Found Show all favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to the login button in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSearching {} Phone : public void searchPhone(String phoneName)"}
+{"logLevel":"debug","message":"\tClick to login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tMove to second page : public void moveToSecondPage()"}
+{"logLevel":"debug","message":"\tShow all favorites : public void showAllFavorites()"}
+{"logLevel":"debug","message":"\tCheck if the user is logged in : public void checkLogin()"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tLogin to n11 with {} and {} : public void fillInputs(String userEmail, String userPassword)"}
+{"logLevel":"debug","message":"\tCheck if favorites open : public void checkFavoritesOpen()"}
+{"logLevel":"debug","message":"\tAdd third phone to favorites : public void addToFavorites()"}
+{"logLevel":"debug","message":"\tClick to the login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tCheck if the page open : public void isOpen()"}
+{"logLevel":"debug","message":"\tCheck if delete phone : public void checkDeletePhone()"}
+{"logLevel":"debug","message":"\tCheck if the searching samsung phone : public void checkSearch()"}
+{"logLevel":"debug","message":"\tDelete phone in favorites : public void deletePhone()"}
+{"logLevel":"debug","message":"\tCheck if open second page : public void checkIsPageOpen()"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
+1627537507436	geckodriver	INFO	Listening on 127.0.0.1:2132
+1627537508614	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileGCe9jc"
+1627537509263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileGCe9jc/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627537511114	Marionette	INFO	Listening on port 53551
+1627537511182	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 29, 2021 8:45:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1627537547814	Marionette	INFO	Stopped listening on port 53551
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
+{"logLevel":"debug","message":"Executing 'Login to n11 with {} and {}' using 'class com.n11.gauge.pages.Login.fillInputs"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Show all favorites' using 'class com.n11.gauge.pages.showFavorites.showAllFavorites"}
+{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.showFavorites.deletePhone"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

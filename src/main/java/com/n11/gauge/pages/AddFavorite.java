@@ -2,18 +2,18 @@ package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
 
-import static com.n11.gauge.Setup.Setup.*;
-import static com.n11.gauge.constants.AddFavoriteConstans.*;
+import static com.n11.gauge.Base.BaseMethods.click;
+import static com.n11.gauge.constants.AddFavoriteConstants.*;
 
 public class AddFavorite {
 
     @Step("Add third phone to favorites")
     public void addToFavorites() {
-        driver.findElement(THIRD_PHONE).click();
+        click(THIRD_PHONE);
     }
 
     @Step("Go to account page")
     public void goToAccountPage() {
-        driver.findElement(ACCOUNT_LINK).click();
+        click(ACCOUNT_LINK);
     }
 }
