@@ -4,7 +4,7 @@ import com.thoughtworks.gauge.Step;
 
 import static com.n11.gauge.base.BaseMethods.click;
 import static com.n11.gauge.base.Setup.*;
-import static com.n11.gauge.constants.HomePageConstans.*;
+import static com.n11.gauge.constants.HomePageConstants.*;
 import static org.junit.Assert.assertEquals;
 
 public class HomePage {
