@@ -1,0 +1,163 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1096milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1096"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchComputer.clickToProduct' and 'com.n11.gauge.pages.SearchComputer.clickToProduct'"}
+{"logLevel":"debug","message":"Found Click to any product in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.checkLogin' and 'com.n11.gauge.pages.Login.checkLogin'"}
+{"logLevel":"debug","message":"Found Check if the user is logged in in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Cart.checkDelete' and 'com.n11.gauge.pages.Cart.checkDelete'"}
+{"logLevel":"debug","message":"Found Check if delete computers in cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Cart.upProductCount' and 'com.n11.gauge.pages.Cart.upProductCount'"}
+{"logLevel":"debug","message":"Found Up to 2 computer count in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
+{"logLevel":"debug","message":"Found Check if the open homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'"}
+{"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkSearch' and 'com.n11.gauge.pages.Favorites.checkSearch'"}
+{"logLevel":"debug","message":"Found Check if the searching computer in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Cart.checkPrice' and 'com.n11.gauge.pages.Cart.checkPrice'"}
+{"logLevel":"debug","message":"Found Check if price equals to searching price in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Cart.deleteProductFromCart' and 'com.n11.gauge.pages.Cart.deleteProductFromCart'"}
+{"logLevel":"debug","message":"Found Delete computer from cart in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen' and 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen'"}
+{"logLevel":"debug","message":"Found Check if open second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkFavoritesOpen' and 'com.n11.gauge.pages.Favorites.checkFavoritesOpen'"}
+{"logLevel":"debug","message":"Found Check if favorites open in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.moveToSecondPage' and 'com.n11.gauge.pages.SearchPhone.moveToSecondPage'"}
+{"logLevel":"debug","message":"Found Move to second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'"}
+{"logLevel":"debug","message":"Found Go to account page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkDelete' and 'com.n11.gauge.pages.Favorites.checkDelete'"}
+{"logLevel":"debug","message":"Found Check if delete phone in favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchComputer.goToCart' and 'com.n11.gauge.pages.SearchComputer.goToCart'"}
+{"logLevel":"debug","message":"Found Click to Cart Icon in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.searchComputer' and 'com.n11.gauge.pages.Favorites.searchComputer'"}
+{"logLevel":"debug","message":"Found Searching {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to the login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
+{"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Cart.logout' and 'com.n11.gauge.pages.Cart.logout'"}
+{"logLevel":"debug","message":"Found Logout from account in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkSearch' and 'com.n11.gauge.pages.SearchPhone.checkSearch'"}
+{"logLevel":"debug","message":"Found Check if the searching Samsung phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
+{"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Found Show all favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchComputer.checkSecondPage' and 'com.n11.gauge.pages.SearchComputer.checkSecondPage'"}
+{"logLevel":"debug","message":"Found Check if open second computer page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.closeMessage' and 'com.n11.gauge.pages.Favorites.closeMessage'"}
+{"logLevel":"debug","message":"Found Close the delete message in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchComputer.moveToSecondPage' and 'com.n11.gauge.pages.SearchComputer.moveToSecondPage'"}
+{"logLevel":"debug","message":"Found Move to second computer page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchComputer.addToCart' and 'com.n11.gauge.pages.SearchComputer.addToCart'"}
+{"logLevel":"debug","message":"Found Add to cart in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSearching {} Phone : public void searchPhone(String phoneName)"}
+{"logLevel":"debug","message":"\tLogout from account : public void logout()"}
+{"logLevel":"debug","message":"\tCheck if open second computer page : public void checkSecondPage()"}
+{"logLevel":"debug","message":"\tClick to Cart Icon : public void goToCart()"}
+{"logLevel":"debug","message":"\tMove to second page : public void moveToSecondPage()"}
+{"logLevel":"debug","message":"\tShow all favorites : public void showAllFavorites()"}
+{"logLevel":"debug","message":"\tCheck if the user is logged in : public void checkLogin()"}
+{"logLevel":"debug","message":"\tCheck if favorites open : public void checkFavoritesOpen()"}
+{"logLevel":"debug","message":"\tCheck if the open homepage : public void isOpen()"}
+{"logLevel":"debug","message":"\tSearching {} : public void searchComputer(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAdd third phone to favorites : public void addToFavorites()"}
+{"logLevel":"debug","message":"\tClick to the login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tAdd to cart : public void addToCart()"}
+{"logLevel":"debug","message":"\tCheck if open second page : public void checkIsPageOpen()"}
+{"logLevel":"debug","message":"\tClick to any product : public void clickToProduct()"}
+{"logLevel":"debug","message":"\tClick to login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tMove to second computer page : public void moveToSecondPage()"}
+{"logLevel":"debug","message":"\tGo to account page : public void goToAccountPage()"}
+{"logLevel":"debug","message":"\tLogin to n11 with {} and {} : public void fillInputs(String userEmail, String userPassword)"}
+{"logLevel":"debug","message":"\tDelete computer from cart : public void deleteProductFromCart()"}
+{"logLevel":"debug","message":"\tClose the delete message : public void closeMessage()"}
+{"logLevel":"debug","message":"\tCheck if the searching computer : public void checkSearch()"}
+{"logLevel":"debug","message":"\tCheck if delete computers in cart : public void checkDelete()"}
+{"logLevel":"debug","message":"\tCheck if the searching Samsung phone : public void checkSearch()"}
+{"logLevel":"debug","message":"\tDelete phone in favorites : public void deletePhone()"}
+{"logLevel":"debug","message":"\tUp to 2 computer count : public void upProductCount()"}
+{"logLevel":"debug","message":"\tCheck if delete phone in favorites : public void checkDelete()"}
+{"logLevel":"debug","message":"\tCheck if price equals to searching price : public void checkPrice()"}
+{"logLevel":"debug","message":"started gRPC server on port 55903"}
+{"logLevel":"info","message":"Listening on port:55903"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
+1627898794805	geckodriver	INFO	Listening on 127.0.0.1:43584
+1627898795959	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile88RVeV"
+1627898796533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile88RVeV/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627898798427	Marionette	INFO	Listening on port 55997
+1627898798471	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 02, 2021 1:06:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2021-08-02 13:06:43,111 INFO  [Setup] Opened n11.com homepage 
+{"logLevel":"debug","message":"Executing 'Check if the open homepage' using 'class com.n11.gauge.pages.HomePage.isOpen"}
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+2021-08-02 13:06:44,977 INFO  [Setup] Clicked go to login page 
+{"logLevel":"debug","message":"Executing 'Login to n11 with {} and {}' using 'class com.n11.gauge.pages.Login.fillInputs"}
+2021-08-02 13:06:45,865 INFO  [Setup] Filled Email and Password Inputs 
+{"logLevel":"debug","message":"Executing 'Click to login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
+2021-08-02 13:06:47,716 INFO  [Setup] Clicked the login button 
+{"logLevel":"debug","message":"Executing 'Check if the user is logged in' using 'class com.n11.gauge.pages.Login.checkLogin"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.SearchPhone.searchPhone"}
+1627898808873	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+2021-08-02 13:06:49,621 INFO  [Setup] Filled search box and click search button 
+{"logLevel":"debug","message":"Executing 'Check if the searching Samsung phone' using 'class com.n11.gauge.pages.SearchPhone.checkSearch"}
+{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.SearchPhone.moveToSecondPage"}
+2021-08-02 13:06:51,008 INFO  [Setup] Moved to 2nd page 
+{"logLevel":"debug","message":"Executing 'Check if open second page' using 'class com.n11.gauge.pages.SearchPhone.checkIsPageOpen"}
+{"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.pages.AddFavorite.addToFavorites"}
+2021-08-02 13:06:52,342 INFO  [Setup] Added 3rd phone to favorites 
+{"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.pages.AddFavorite.goToAccountPage"}
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+2021-08-02 13:06:53,575 INFO  [Setup] Go to my account page 
+{"logLevel":"debug","message":"Executing 'Show all favorites' using 'class com.n11.gauge.pages.Favorites.showAllFavorites"}
+2021-08-02 13:06:55,273 INFO  [Setup] Showing my favorites page 
+{"logLevel":"debug","message":"Executing 'Check if favorites open' using 'class com.n11.gauge.pages.Favorites.checkFavoritesOpen"}
+{"logLevel":"debug","message":"Executing 'Delete phone in favorites' using 'class com.n11.gauge.pages.Favorites.deletePhone"}
+2021-08-02 13:06:55,891 INFO  [Setup] Deleted phone from favorites 
+{"logLevel":"debug","message":"Executing 'Check if delete phone in favorites' using 'class com.n11.gauge.pages.Favorites.checkDelete"}
+{"logLevel":"debug","message":"Executing 'Close the delete message' using 'class com.n11.gauge.pages.Favorites.closeMessage"}
+{"logLevel":"debug","message":"Executing 'Searching {}' using 'class com.n11.gauge.pages.Favorites.searchComputer"}
+JavaScript error: https://www.n11.com/hesabim/favorilerim line 29 > injectedScript, line 4: TypeError: a[0] is undefined
+2021-08-02 13:06:58,413 INFO  [Setup] Searched Computer 
+{"logLevel":"debug","message":"Executing 'Check if the searching computer' using 'class com.n11.gauge.pages.Favorites.checkSearch"}
+{"logLevel":"debug","message":"Executing 'Move to second computer page' using 'class com.n11.gauge.pages.SearchComputer.moveToSecondPage"}
+2021-08-02 13:06:59,720 INFO  [Setup] Moved 2nd computer page 
+{"logLevel":"debug","message":"Executing 'Check if open second computer page' using 'class com.n11.gauge.pages.SearchComputer.checkSecondPage"}
+{"logLevel":"debug","message":"Executing 'Click to any product' using 'class com.n11.gauge.pages.SearchComputer.clickToProduct"}
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+2021-08-02 13:07:01,289 INFO  [Setup] Click to computer 
+{"logLevel":"debug","message":"Executing 'Add to cart' using 'class com.n11.gauge.pages.SearchComputer.addToCart"}
+2021-08-02 13:07:02,383 INFO  [Setup] Add computer to cart 
+{"logLevel":"debug","message":"Executing 'Click to Cart Icon' using 'class com.n11.gauge.pages.SearchComputer.goToCart"}
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+{"logLevel":"debug","message":"Executing 'Check if price equals to searching price' using 'class com.n11.gauge.pages.Cart.checkPrice"}
+{"logLevel":"debug","message":"Executing 'Up to 2 computer count' using 'class com.n11.gauge.pages.Cart.upProductCount"}
+{"logLevel":"debug","message":"Executing 'Delete computer from cart' using 'class com.n11.gauge.pages.Cart.deleteProductFromCart"}
+{"logLevel":"debug","message":"Executing 'Check if delete computers in cart' using 'class com.n11.gauge.pages.Cart.checkDelete"}
+{"logLevel":"debug","message":"Executing 'Logout from account' using 'class com.n11.gauge.pages.Cart.logout"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

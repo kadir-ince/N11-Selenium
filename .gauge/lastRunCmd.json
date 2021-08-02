@@ -4,11 +4,7 @@
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"/Users/kadirince/Desktop/n11/specs/1homePage.spec",
-	"/Users/kadirince/Desktop/n11/specs/2login.spec",
-	"/Users/kadirince/Desktop/n11/specs/3searchPhone.spec",
-	"/Users/kadirince/Desktop/n11/specs/4addFavorite.spec",
-	"/Users/kadirince/Desktop/n11/specs/5showAndDeleteFavorites.spec",
-	"/Users/kadirince/Desktop/n11/specs/6searchComputer.spec",
-	"/Users/kadirince/Desktop/n11/specs/7cart.spec"
+	"/Users/kadirince/Desktop/n11/specs/A-Login",
+	"/Users/kadirince/Desktop/n11/specs/B-SearchPhone",
+	"/Users/kadirince/Desktop/n11/specs/C-Computer"
 ]

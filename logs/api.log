@@ -4573,3 +4573,68 @@ Warnings             : []
 02-08-2021 11:23:15.561 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:{}
 02-08-2021 11:23:15.561 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:{}
 02-08-2021 11:23:17.623 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/6searchComputer.spec
+02-08-2021 13:11:04.885 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/SearchPhone
+02-08-2021 13:11:04.888 [Gauge] [DEBUG] Found 0 files
+02-08-2021 13:11:13.577 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/SearchPhone/3searchPhone.spec
+02-08-2021 13:11:13.584 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/3searchPhone.spec
+02-08-2021 13:11:13.607 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/SearchPhone/4addFavorite.spec
+02-08-2021 13:11:13.619 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/4addFavorite.spec
+02-08-2021 13:11:13.620 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/SearchPhone/5showAndDeleteFavorites.spec
+02-08-2021 13:11:13.621 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/5showAndDeleteFavorites.spec
+02-08-2021 13:11:21.203 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/Computer
+02-08-2021 13:11:21.203 [Gauge] [DEBUG] Found 0 files
+02-08-2021 13:11:27.146 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/Computer/6searchComputer.spec
+02-08-2021 13:11:27.154 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/6searchComputer.spec
+02-08-2021 13:11:27.163 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/Computer/7cart.spec
+02-08-2021 13:11:27.164 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/7cart.spec
+02-08-2021 13:11:38.989 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/Computer/searchComputer.spec
+02-08-2021 13:11:38.991 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/Computer/6searchComputer.spec
+02-08-2021 13:11:41.972 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/Computer/cart.spec
+02-08-2021 13:11:41.974 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/Computer/7cart.spec
+02-08-2021 13:11:46.978 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/SearchPhone/searchPhone.spec
+02-08-2021 13:11:46.979 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/SearchPhone/3searchPhone.spec
+02-08-2021 13:11:53.757 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/SearchPhone/addFavorite.spec
+02-08-2021 13:11:53.759 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/SearchPhone/4addFavorite.spec
+02-08-2021 13:12:01.485 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/SearchPhone/showAndDeleteFavorites.spec
+02-08-2021 13:12:01.486 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/SearchPhone/5showAndDeleteFavorites.spec
+02-08-2021 13:14:24.382 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/Login
+02-08-2021 13:14:24.382 [Gauge] [DEBUG] Found 0 files
+02-08-2021 13:14:29.711 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/Login/1homePage.spec
+02-08-2021 13:14:29.713 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/1homePage.spec
+02-08-2021 13:14:58.035 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+02-08-2021 13:14:58.038 [Gauge] [INFO] Initializing specs cache with 7 specs
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/Computer/searchComputer.spec
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/2login.spec
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/SearchPhone/addFavorite.spec
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/Login/1homePage.spec
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/SearchPhone/searchPhone.spec
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/SearchPhone/showAndDeleteFavorites.spec
+02-08-2021 13:14:58.038 [Gauge] [DEBUG] Adding specs from /Users/kadirince/Desktop/n11/specs/Computer/cart.spec
+02-08-2021 13:14:58.039 [Gauge] [INFO] Initializing steps cache with 7 steps
+02-08-2021 13:14:58.039 [Gauge] [INFO] Gauge daemon initialized and listening on port: 65021
+02-08-2021 13:14:58.039 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs
+02-08-2021 13:14:58.040 [Gauge] [DEBUG] Found 4 files
+02-08-2021 13:14:58.040 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/Computer
+02-08-2021 13:14:58.040 [Gauge] [DEBUG] Found 2 files
+02-08-2021 13:14:58.040 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/Login
+02-08-2021 13:14:58.040 [Gauge] [DEBUG] Found 1 files
+02-08-2021 13:14:58.041 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/SearchPhone
+02-08-2021 13:14:58.041 [Gauge] [DEBUG] Found 3 files
+02-08-2021 13:15:08.511 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/Login/2login.spec
+02-08-2021 13:15:08.512 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/2login.spec
+02-08-2021 13:15:20.671 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/A-Login
+02-08-2021 13:15:20.671 [Gauge] [DEBUG] Found 2 files
+02-08-2021 13:15:26.555 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/B-SearchPhone
+02-08-2021 13:15:26.555 [Gauge] [DEBUG] Found 3 files
+02-08-2021 13:15:30.070 [Gauge] [DEBUG] Watching directory: /Users/kadirince/Desktop/n11/specs/C-Computer
+02-08-2021 13:15:30.070 [Gauge] [DEBUG] Found 2 files
+02-08-2021 13:15:38.630 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/B-SearchPhone/1searchPhone.spec
+02-08-2021 13:15:38.631 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/B-SearchPhone/searchPhone.spec
+02-08-2021 13:15:41.395 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/B-SearchPhone/2addFavorite.spec
+02-08-2021 13:15:41.396 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/B-SearchPhone/addFavorite.spec
+02-08-2021 13:15:43.998 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/B-SearchPhone/3showAndDeleteFavorites.spec
+02-08-2021 13:15:44.000 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/B-SearchPhone/showAndDeleteFavorites.spec
+02-08-2021 13:15:48.619 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/C-Computer/1searchComputer.spec
+02-08-2021 13:15:48.620 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/C-Computer/searchComputer.spec
+02-08-2021 13:15:51.481 [Gauge] [DEBUG] Spec file added / modified: /Users/kadirince/Desktop/n11/specs/C-Computer/2cart.spec
+02-08-2021 13:15:51.481 [Gauge] [DEBUG] Spec file removed: /Users/kadirince/Desktop/n11/specs/C-Computer/cart.spec

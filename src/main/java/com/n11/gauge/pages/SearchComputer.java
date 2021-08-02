@@ -25,7 +25,6 @@ public class SearchComputer {
     @Step("Click to any product")
     public void clickToProduct() {
         listPrice = driver.findElement(PRODUCT_LIST_PRICE).getText();
-
         click(COMPUTER);
         log.info("Click to computer");
     }
