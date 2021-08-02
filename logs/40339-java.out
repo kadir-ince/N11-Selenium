@@ -14,9 +14,9 @@
 {"logLevel":"debug","message":"Found Check if the user is logged in in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.moveToSecondPage' and 'com.n11.gauge.pages.SearchPhone.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to second page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen' and 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen'"}
 {"logLevel":"debug","message":"Found Check if open second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'"}
 {"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
@@ -24,9 +24,9 @@
 {"logLevel":"debug","message":"Found Check if the page open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkDeletePhone' and 'com.n11.gauge.pages.Favorites.checkDeletePhone'"}
 {"logLevel":"debug","message":"Found Check if delete phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkSearch' and 'com.n11.gauge.pages.SearchPhone.checkSearch'"}
 {"logLevel":"debug","message":"Found Check if the searching samsung phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
 {"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
@@ -59,8 +59,8 @@
 {"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.pages.AddFavorite.addToFavorites"}
 {"logLevel":"debug","message":"Executing 'Go to account page' using 'class com.n11.gauge.pages.AddFavorite.goToAccountPage"}
 {"logLevel":"debug","message":"Executing 'Login to n11 with {} and {}' using 'class com.n11.gauge.pages.Login.fillInputs"}
-{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
-{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.SearchPhone.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.SearchPhone.moveToSecondPage"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
 1627477357725	geckodriver	INFO	Listening on 127.0.0.1:30052
 1627477359013	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile4WbN1P"

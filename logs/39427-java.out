@@ -6,13 +6,13 @@
 {"logLevel":"debug","message":"started gRPC server on port 61736"}
 {"logLevel":"info","message":"Listening on port:61736"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.moveToSecondPage' and 'com.n11.gauge.pages.SearchPhone.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'"}
 {"logLevel":"debug","message":"Found Go to account page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen' and 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen'"}
 {"logLevel":"debug","message":"Found Check if open second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkFavoritesOpen' and 'com.n11.gauge.pages.Favorites.checkFavoritesOpen'"}
 {"logLevel":"debug","message":"Found Check if favorites open in current project scope."}
@@ -30,9 +30,9 @@
 {"logLevel":"debug","message":"Found Check if the page open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'"}
 {"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkSearch' and 'com.n11.gauge.pages.SearchPhone.checkSearch'"}
 {"logLevel":"debug","message":"Found Check if the searching samsung phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
 {"logLevel":"debug","message":"Found Show all favorites in current project scope."}

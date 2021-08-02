@@ -52,9 +52,9 @@
 29-07-2021 11:18:09.888 [java] [DEBUG] Found Check if the user is logged in in current project scope.
 29-07-2021 11:18:09.888 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'
 29-07-2021 11:18:09.889 [java] [DEBUG] Found Click to login button in current project scope.
-29-07-2021 11:18:09.890 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'
+29-07-2021 11:18:09.890 [java] [DEBUG] Comparing 'com.n11.gauge.pages.SearchPhone.moveToSecondPage' and 'com.n11.gauge.pages.SearchPhone.moveToSecondPage'
 29-07-2021 11:18:09.890 [java] [DEBUG] Found Move to second page in current project scope.
-29-07-2021 11:18:09.890 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'
+29-07-2021 11:18:09.890 [java] [DEBUG] Comparing 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen' and 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen'
 29-07-2021 11:18:09.891 [java] [DEBUG] Found Check if open second page in current project scope.
 29-07-2021 11:18:09.891 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'
 29-07-2021 11:18:09.891 [java] [DEBUG] Found Login to n11 with {} and {} in current project scope.
@@ -62,9 +62,9 @@
 29-07-2021 11:18:09.892 [java] [DEBUG] Found Check if the page open in current project scope.
 29-07-2021 11:18:09.895 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Favorites.checkDeletePhone' and 'com.n11.gauge.pages.showFavorites.checkDeletePhone'
 29-07-2021 11:18:09.895 [java] [DEBUG] Loading Check if delete phonevia reflected sources.
-29-07-2021 11:18:09.895 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'
+29-07-2021 11:18:09.895 [java] [DEBUG] Comparing 'com.n11.gauge.pages.SearchPhone.checkSearch' and 'com.n11.gauge.pages.SearchPhone.checkSearch'
 29-07-2021 11:18:09.896 [java] [DEBUG] Found Check if the searching samsung phone in current project scope.
-29-07-2021 11:18:09.896 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'
+29-07-2021 11:18:09.896 [java] [DEBUG] Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'
 29-07-2021 11:18:09.896 [java] [DEBUG] Found Searching {} Phone in current project scope.
 29-07-2021 11:18:09.896 [java] [DEBUG] Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.showFavorites.deletePhone'
 29-07-2021 11:18:09.896 [java] [DEBUG] Loading Delete phone in favoritesvia reflected sources.

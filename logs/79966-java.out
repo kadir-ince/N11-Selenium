@@ -1,0 +1,742 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
+{"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.addToFavorites' and 'com.n11.gauge.pages.AddFavorite.addToFavorites'"}
+{"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.checkLogin' and 'com.n11.gauge.pages.Login.checkLogin'"}
+{"logLevel":"debug","message":"Found Check if the user is logged in in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to login button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Found Move to second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'"}
+{"logLevel":"debug","message":"Found Check if open second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'"}
+{"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
+{"logLevel":"debug","message":"Found Check if the open homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.showAllFavorites' and 'com.n11.gauge.pages.Favorites.showAllFavorites'"}
+{"logLevel":"debug","message":"Found Show all favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
+{"logLevel":"debug","message":"Found Check if the searching Samsung phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkFavoritesOpen' and 'com.n11.gauge.pages.Favorites.checkFavoritesOpen'"}
+{"logLevel":"debug","message":"Found Check if favorites open in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.goToAccountPage' and 'com.n11.gauge.pages.AddFavorite.goToAccountPage'"}
+{"logLevel":"debug","message":"Found Go to account page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkDelete' and 'com.n11.gauge.pages.Favorites.checkDelete'"}
+{"logLevel":"debug","message":"Found Check if delete phone in favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.closeMessage' and 'com.n11.gauge.pages.Favorites.closeMessage'"}
+{"logLevel":"debug","message":"Found Close the delete message in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
+{"logLevel":"debug","message":"Found Click to the login button in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSearching {} Phone : public void searchPhone(String phoneName)"}
+{"logLevel":"debug","message":"\tClick to login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tMove to second page : public void moveToSecondPage()"}
+{"logLevel":"debug","message":"\tShow all favorites : public void showAllFavorites()"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tCheck if the user is logged in : public void checkLogin()"}
+{"logLevel":"debug","message":"\tGo to account page : public void goToAccountPage()"}
+{"logLevel":"debug","message":"\tLogin to n11 with {} and {} : public void fillInputs(String userEmail, String userPassword)"}
+{"logLevel":"debug","message":"\tCheck if favorites open : public void checkFavoritesOpen()"}
+{"logLevel":"debug","message":"\tCheck if the open homepage : public void isOpen()"}
+{"logLevel":"debug","message":"\tAdd third phone to favorites : public void addToFavorites()"}
+{"logLevel":"debug","message":"\tClick to the login button : public void clickLoginButton()"}
+{"logLevel":"debug","message":"\tClose the delete message : public void closeMessage()"}
+{"logLevel":"debug","message":"\tCheck if the searching Samsung phone : public void checkSearch()"}
+{"logLevel":"debug","message":"\tDelete phone in favorites : public void deletePhone()"}
+{"logLevel":"debug","message":"\tCheck if delete phone in favorites : public void checkDelete()"}
+{"logLevel":"debug","message":"\tCheck if open second page : public void checkIsPageOpen()"}
+2021-08-02 08:26:34,662 main DEBUG Apache Log4j Core 2.11.2 initializing configuration XmlConfiguration[location=/Users/kadirince/Desktop/n11/target/classes/log4j2.xml]
+2021-08-02 08:26:34,672 main DEBUG Installed 1 script engine
+2021-08-02 08:26:34,724 main INFO Cannot initialize scripting support because this JRE does not support it. java.lang.IllegalAccessError: class jdk.nashorn.internal.codegen.types.Type (in unnamed module @0x76e041cf) cannot access class jdk.internal.org.objectweb.asm.Type (in module java.base) because module java.base does not export jdk.internal.org.objectweb.asm to unnamed module @0x76e041cf
+	at jdk.nashorn.internal.codegen.types.Type.getInternalName(Type.java:415)
+	at jdk.nashorn.internal.codegen.CompilerConstants.className(CompilerConstants.java:299)
+	at jdk.nashorn.internal.codegen.CompilerConstants.staticCallNoLookup(CompilerConstants.java:438)
+	at jdk.nashorn.internal.codegen.types.Type.<clinit>(Type.java:128)
+	at jdk.nashorn.internal.codegen.CompilerConstants.className(CompilerConstants.java:299)
+	at jdk.nashorn.internal.codegen.CompilerConstants.virtualCall(CompilerConstants.java:604)
+	at jdk.nashorn.internal.runtime.GlobalConstants.<clinit>(GlobalConstants.java:98)
+	at jdk.nashorn.internal.runtime.Context.createOrInvalidateGlobalConstants(Context.java:1124)
+	at jdk.nashorn.internal.runtime.Context.newGlobal(Context.java:1110)
+	at jdk.nashorn.api.scripting.NashornScriptEngine$2.run(NashornScriptEngine.java:350)
+	at jdk.nashorn.api.scripting.NashornScriptEngine$2.run(NashornScriptEngine.java:346)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.createNashornGlobal(NashornScriptEngine.java:346)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.<init>(NashornScriptEngine.java:143)
+	at jdk.nashorn.api.scripting.NashornScriptEngineFactory.getScriptEngine(NashornScriptEngineFactory.java:148)
+	at org.apache.logging.log4j.core.script.ScriptManager.<init>(ScriptManager.java:99)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:250)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:548)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:620)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:231)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:243)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:45)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:174)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:648)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.Log4J2LoggerFactory.newInstance(Log4J2LoggerFactory.java:33)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:49)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.getDefaultFactory(InternalLoggerFactory.java:69)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.getInstance(InternalLoggerFactory.java:92)
+	at io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory.getInstance(InternalLoggerFactory.java:85)
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:80)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:223)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:210)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.cached(AsciiString.java:1401)
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<clinit>(AsciiString.java:48)
+	at io.grpc.netty.shaded.io.grpc.netty.Utils.<clinit>(Utils.java:74)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder.<clinit>(NettyServerBuilder.java:83)
+	at com.thoughtworks.gauge.command.StartCommand.execute(StartCommand.java:48)
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:23)
+
+2021-08-02 08:26:34,726 main DEBUG Took 0.001109 seconds to load 0 plugins from package org.apache.logging.log4j.test
+2021-08-02 08:26:34,726 main DEBUG PluginManager 'Core' found 117 plugins
+2021-08-02 08:26:34,727 main DEBUG PluginManager 'Level' found 0 plugins
+2021-08-02 08:26:34,734 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2021-08-02 08:26:34,749 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-08-02 08:26:34,757 main DEBUG createProperty(name="filename", value="logs/test.log")
+2021-08-02 08:26:34,758 main DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2021-08-02 08:26:34,761 main DEBUG configureSubstitutor(={filename=logs/test.log}, Configuration(XMLConfigTest))
+2021-08-02 08:26:34,762 main DEBUG PluginManager 'Lookup' found 13 plugins
+2021-08-02 08:26:34,763 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2021-08-02 08:26:34,769 main DEBUG createFilter(level="TRACE", onMatch="null", onMismatch="null")
+2021-08-02 08:26:34,769 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-08-02 08:26:34,775 main DEBUG PatternLayout$Builder(pattern="%m MDC%X%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-08-02 08:26:34,776 main DEBUG PluginManager 'Converter' found 44 plugins
+2021-08-02 08:26:34,777 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2021-08-02 08:26:34,779 main DEBUG createFilter(marker="FLOW", onMatch="DENY", onMismatch="NEUTRAL")
+2021-08-02 08:26:34,780 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2021-08-02 08:26:34,782 main DEBUG createFilter(marker="EXCEPTION", onMatch="DENY", onMismatch="ACCEPT")
+2021-08-02 08:26:34,783 main DEBUG Building Plugin[name=filters, class=org.apache.logging.log4j.core.filter.CompositeFilter].
+2021-08-02 08:26:34,784 main DEBUG createFilters(={FLOW, EXCEPTION})
+2021-08-02 08:26:34,784 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-08-02 08:26:34,792 main DEBUG ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%m MDC%X%n), name="STDOUT", Configuration(XMLConfigTest), Filters({FLOW, EXCEPTION}), ={})
+2021-08-02 08:26:34,793 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-08-02 08:26:34,794 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-08-02 08:26:34,795 main DEBUG PatternLayout$Builder(pattern="%C{1}.%M %m %ex%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-08-02 08:26:34,796 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2021-08-02 08:26:34,797 main DEBUG createFilter(marker="FLOW", onMatch="ACCEPT", onMismatch="NEUTRAL")
+2021-08-02 08:26:34,797 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2021-08-02 08:26:34,799 main DEBUG createFilter(marker="EXCEPTION", onMatch="ACCEPT", onMismatch="DENY")
+2021-08-02 08:26:34,800 main DEBUG Building Plugin[name=filters, class=org.apache.logging.log4j.core.filter.CompositeFilter].
+2021-08-02 08:26:34,800 main DEBUG createFilters(={FLOW, EXCEPTION})
+2021-08-02 08:26:34,800 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-08-02 08:26:34,801 main DEBUG ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%C{1}.%M %m %ex%n), name="FLOW", Configuration(XMLConfigTest), Filters({FLOW, EXCEPTION}), ={})
+2021-08-02 08:26:34,803 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-08-02 08:26:34,804 main DEBUG PatternLayout$Builder(pattern="%d %p %C{1.} [%t] %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-08-02 08:26:34,814 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2021-08-02 08:26:34,817 main DEBUG FileAppender$Builder(fileName="logs/test.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %C{1.} [%t] %m%n), name="File", Configuration(XMLConfigTest), Filter=null, ={})
+2021-08-02 08:26:34,819 main DEBUG Starting FileManager logs/test.log
+2021-08-02 08:26:34,820 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-08-02 08:26:34,820 main DEBUG createAppenders(={STDOUT, FLOW, File})
+2021-08-02 08:26:34,821 main DEBUG Building Plugin[name=KeyValuePair, class=org.apache.logging.log4j.core.util.KeyValuePair].
+2021-08-02 08:26:34,822 main DEBUG KeyValuePair$Builder(key="test", value="123")
+2021-08-02 08:26:34,822 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThreadContextMapFilter].
+2021-08-02 08:26:34,824 main DEBUG createFilter(={test=123}, operator="null", onMatch="null", onMismatch="null")
+2021-08-02 08:26:34,824 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-08-02 08:26:34,825 main DEBUG createAppenderRef(ref="STDOUT", level="null", Filter=null)
+2021-08-02 08:26:34,826 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2021-08-02 08:26:34,827 main DEBUG createLogger(additivity="false", level="DEBUG", name="org.apache.logging.log4j.test1", includeLocation="null", ={STDOUT}, ={}, Configuration(XMLConfigTest), ThreadContextMapFilter(isAnd=true, {test=[123]}))
+2021-08-02 08:26:34,829 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-08-02 08:26:34,830 main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
+2021-08-02 08:26:34,831 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2021-08-02 08:26:34,832 main DEBUG createLogger(additivity="false", level="DEBUG", name="org.apache.logging.log4j.test2", includeLocation="null", ={File}, ={}, Configuration(XMLConfigTest), Filter=null)
+2021-08-02 08:26:34,832 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-08-02 08:26:34,833 main DEBUG createAppenderRef(ref="STDOUT", level="null", Filter=null)
+2021-08-02 08:26:34,833 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-08-02 08:26:34,834 main DEBUG createLogger(additivity="null", level="TRACE", includeLocation="null", ={STDOUT}, ={}, Configuration(XMLConfigTest), Filter=null)
+2021-08-02 08:26:34,835 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-08-02 08:26:34,836 main DEBUG createLoggers(={org.apache.logging.log4j.test1, org.apache.logging.log4j.test2, root})
+2021-08-02 08:26:34,837 main DEBUG Configuration XmlConfiguration[location=/Users/kadirince/Desktop/n11/target/classes/log4j2.xml] initialized
+2021-08-02 08:26:34,838 main DEBUG Starting configuration XmlConfiguration[location=/Users/kadirince/Desktop/n11/target/classes/log4j2.xml]
+2021-08-02 08:26:34,838 main DEBUG Started configuration XmlConfiguration[location=/Users/kadirince/Desktop/n11/target/classes/log4j2.xml] OK.
+2021-08-02 08:26:34,839 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-08-02 08:26:34,840 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-08-02 08:26:34,841 main DEBUG Appender DefaultConsole-1 stopped with status true
+2021-08-02 08:26:34,841 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3c19aaa5 OK
+2021-08-02 08:26:35,115 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0
+2021-08-02 08:26:35,118 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=StatusLogger
+2021-08-02 08:26:35,120 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=ContextSelector
+2021-08-02 08:26:35,121 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=Loggers,name=org.apache.logging.log4j.test1
+2021-08-02 08:26:35,122 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=Loggers,name=
+2021-08-02 08:26:35,122 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=Loggers,name=org.apache.logging.log4j.test2
+2021-08-02 08:26:35,123 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=Appenders,name=STDOUT
+2021-08-02 08:26:35,125 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=Appenders,name=File
+2021-08-02 08:26:35,125 main DEBUG Registering MBean org.apache.logging.log4j2:type=22d8cfe0,component=Appenders,name=FLOW
+2021-08-02 08:26:35,126 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2021-08-02 08:26:35,127 main DEBUG Reconfiguration complete for context[name=22d8cfe0] at URI /Users/kadirince/Desktop/n11/target/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@403f0a22) with optional ClassLoader: null
+2021-08-02 08:26:35,128 main DEBUG Shutdown hook enabled. Registering a new one.
+2021-08-02 08:26:35,129 main DEBUG LoggerContext[name=22d8cfe0, org.apache.logging.log4j.core.LoggerContext@403f0a22] started OK.
+Using Log4J2 as the default logging framework MDC{}
+Platform: MacOS MDC{}
+-Dio.netty.noUnsafe: false MDC{}
+Java version: 16 MDC{}
+sun.misc.Unsafe.theUnsafe: available MDC{}
+sun.misc.Unsafe.copyMemory: available MDC{}
+java.nio.Buffer.address: available MDC{}
+direct buffer constructor: unavailable MDC{}
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.grpc.netty.shaded.io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238) ~[grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at java.security.AccessController.doPrivileged(AccessController.java:312) ~[?:?]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:223) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:210) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.cached(AsciiString.java:1401) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<clinit>(AsciiString.java:48) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.grpc.netty.Utils.<clinit>(Utils.java:74) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder.<clinit>(NettyServerBuilder.java:83) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at com.thoughtworks.gauge.command.StartCommand.execute(StartCommand.java:48) [gauge-java-0.7.15.jar:?]
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:23) [gauge-java-0.7.15.jar:?]
+java.nio.Bits.unaligned: available, true MDC{}
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable MDC{}
+java.lang.IllegalAccessException: class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @76e041cf
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:687) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:559) ~[?:?]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352) ~[grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at java.security.AccessController.doPrivileged(AccessController.java:312) ~[?:?]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:223) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<init>(AsciiString.java:210) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.cached(AsciiString.java:1401) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.netty.util.AsciiString.<clinit>(AsciiString.java:48) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.grpc.netty.Utils.<clinit>(Utils.java:74) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder.<clinit>(NettyServerBuilder.java:83) [grpc-netty-shaded-1.37.0.jar:1.37.0]
+	at com.thoughtworks.gauge.command.StartCommand.execute(StartCommand.java:48) [gauge-java-0.7.15.jar:?]
+	at com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:23) [gauge-java-0.7.15.jar:?]
+java.nio.DirectByteBuffer.<init>(long, int): unavailable MDC{}
+sun.misc.Unsafe: available MDC{}
+maxDirectMemory: 2147483648 bytes (maybe) MDC{}
+-Dio.netty.tmpdir: /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T (java.io.tmpdir) MDC{}
+-Dio.netty.bitMode: 64 (sun.arch.data.model) MDC{}
+-Dio.netty.maxDirectMemory: -1 bytes MDC{}
+-Dio.netty.uninitializedArrayAllocationThreshold: -1 MDC{}
+java.nio.ByteBuffer.cleaner(): available MDC{}
+-Dio.netty.noPreferDirect: false MDC{}
+-Dio.netty.eventLoopThreads: 8 MDC{}
+-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 MDC{}
+-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 MDC{}
+-Dio.netty.noKeySetOptimization: false MDC{}
+-Dio.netty.selectorAutoRebuildThreshold: 512 MDC{}
+org.jctools-core.MpscChunkedArrayQueue: available MDC{}
+instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@33352f32 MDC{}
+instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@37f21974 MDC{}
+instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5f4d427e MDC{}
+instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6e521c1e MDC{}
+instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@224b4d61 MDC{}
+{"logLevel":"debug","message":"gauge-java took 6544milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 6544"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+-Dio.grpc.netty.shaded.io.netty.leakDetection.level: simple MDC{}
+-Dio.grpc.netty.shaded.io.netty.leakDetection.targetRecords: 4 MDC{}
+-Dio.netty.allocator.numHeapArenas: 8 MDC{}
+-Dio.netty.allocator.numDirectArenas: 8 MDC{}
+-Dio.netty.allocator.pageSize: 8192 MDC{}
+-Dio.netty.allocator.maxOrder: 11 MDC{}
+-Dio.netty.allocator.chunkSize: 16777216 MDC{}
+-Dio.netty.allocator.smallCacheSize: 256 MDC{}
+-Dio.netty.allocator.normalCacheSize: 64 MDC{}
+-Dio.netty.allocator.maxCachedBufferCapacity: 32768 MDC{}
+-Dio.netty.allocator.cacheTrimInterval: 8192 MDC{}
+-Dio.netty.allocator.cacheTrimIntervalMillis: 0 MDC{}
+-Dio.netty.allocator.useCacheForAllThreads: true MDC{}
+-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 MDC{}
+-Dio.netty.processId: 79983 (auto-detected) MDC{}
+-Djava.net.preferIPv4Stack: false MDC{}
+-Djava.net.preferIPv6Addresses: false MDC{}
+Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0) MDC{}
+Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128 MDC{}
+-Dio.netty.machineId: 88:e9:fe:ff:fe:6c:2a:d2 (auto-detected) MDC{}
+-Dio.netty.allocator.type: pooled MDC{}
+-Dio.netty.threadLocalDirectBufferSize: 0 MDC{}
+-Dio.netty.maxThreadLocalCharBufferSize: 16384 MDC{}
+{"logLevel":"debug","message":"started gRPC server on port 54708"}
+{"logLevel":"info","message":"Listening on port:54708"}
+-Dio.grpc.netty.shaded.io.netty.buffer.checkAccessible: true MDC{}
+-Dio.grpc.netty.shaded.io.netty.buffer.checkBounds: true MDC{}
+Loaded default ResourceLeakDetector: io.grpc.netty.shaded.io.netty.util.ResourceLeakDetector@10f63ba7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =8192} MDC{}
+-Dio.netty.recycler.maxCapacityPerThread: 4096 MDC{}
+-Dio.netty.recycler.maxSharedCapacityFactor: 2 MDC{}
+-Dio.netty.recycler.linkCapacity: 16 MDC{}
+-Dio.netty.recycler.ratio: 8 MDC{}
+-Dio.netty.recycler.delayedQueue.ratio: 8 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND SETTINGS: ack=false settings={} MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND SETTINGS: ack=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND SETTINGS: ack=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=1 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ValidateStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=1 padding=0 endStream=true length=89 bytes=00000000540a0e4e6176696761746520746f207b7d10011a400a0e4e6176696761746520746f207b7d121d4e6176696761746520746f203c68747470733a2f2f... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=1 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=1 padding=0 endStream=false length=7 bytes=00000000020801 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=1 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=3 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ValidateStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=3 padding=0 endStream=true length=91 bytes=00000000560a1a436865636b20696620746865206f70656e20686f6d65706167651a380a1a436865636b20696620746865206f70656e20686f6d657061676512... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=3 padding=0 endStream=false length=7 bytes=00000000020801 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=5 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ValidateStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=5 padding=0 endStream=true length=88 bytes=00000000530a19436c69636b20746f20746865206c6f67696e20627574746f6e1a360a19436c69636b20746f20746865206c6f67696e20627574746f6e121943... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=5 padding=0 endStream=false length=7 bytes=00000000020801 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=7 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ValidateStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=7 padding=0 endStream=true length=162 bytes=000000009d0a1b4c6f67696e20746f206e31312077697468207b7d20616e64207b7d10021a7c0a1b4c6f67696e20746f206e31312077697468207b7d20616e64... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=7 padding=0 endStream=false length=7 bytes=00000000020801 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=9 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ValidateStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=9 padding=0 endStream=true length=76 bytes=00000000470a15436c69636b20746f206c6f67696e20627574746f6e1a2e0a15436c69636b20746f206c6f67696e20627574746f6e1215436c69636b20746f20... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=9 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=9 padding=0 endStream=false length=7 bytes=00000000020801 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=9 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=11 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ValidateStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=11 padding=0 endStream=true length=103 bytes=00000000620a1e436865636b206966207468652075736572206973206c6f6767656420696e1a400a1e436865636b206966207468652075736572206973206c6f... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=11 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=11 padding=0 endStream=false length=7 bytes=00000000020801 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=11 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=13 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/InitializeSuiteDataStore, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=13 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=13 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=13 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=13 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=15 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=15 padding=0 endStream=true length=89 bytes=00000000540a522a036e313132170a0f686964652d73756767657374696f6e12047472756532180a106d616368696e652d7265616461626c6512047472756532... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=15 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=15 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=15 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=17 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/InitializeSpecDataStore, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=17 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=17 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=17 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=17 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=19 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartSpecExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=19 padding=0 endStream=true length=166 bytes=00000000a10a9e010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=19 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=19 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=19 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=21 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/InitializeScenarioDataStore, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=21 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=21 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=21 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=21 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=23 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartScenarioExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=23 padding=0 endStream=true length=183 bytes=00000000b20aaf010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=23 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=23 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=23 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=25 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=25 padding=0 endStream=true length=253 bytes=00000000f80af5010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=25 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=25 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=25 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=27 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ExecuteStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=27 padding=0 endStream=true length=71 bytes=00000000420a1d4e6176696761746520746f202268747470733a2f2f6e31312e636f6d22120e4e6176696761746520746f207b7d2211120f68747470733a2f2f... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+1627881999089	geckodriver	INFO	Listening on 127.0.0.1:16055
+1627882000233	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile6ugk85"
+1627882001056	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofile6ugk85/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1627882003135	Marionette	INFO	Listening on port 54800
+1627882003220	Marionette	WARN	TLS certificate errors will be ignored for this session
+Aug 02, 2021 8:26:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=27 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=27 padding=0 endStream=false length=10 bytes=00000000050a0330bf42 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=27 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=10 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=29 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=29 padding=0 endStream=true length=253 bytes=00000000f80af5010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=29 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=29 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=29 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=31 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=31 padding=0 endStream=true length=243 bytes=00000000ee0aeb010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=31 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=31 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=31 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=33 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ExecuteStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=33 padding=0 endStream=true length=61 bytes=00000000380a1a436865636b20696620746865206f70656e20686f6d6570616765121a436865636b20696620746865206f70656e20686f6d6570616765 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+{"logLevel":"debug","message":"Executing 'Check if the open homepage' using 'class com.n11.gauge.pages.HomePage.isOpen"}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=33 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=33 padding=0 endStream=false length=9 bytes=00000000040a02300e MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=33 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=9 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=35 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=35 padding=0 endStream=true length=243 bytes=00000000ee0aeb010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=35 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=35 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=35 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=37 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishScenarioExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=37 padding=0 endStream=true length=185 bytes=00000000b40ab1010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=37 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=37 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=37 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=39 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/InitializeScenarioDataStore, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=39 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=39 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=39 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=39 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=41 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartScenarioExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=41 padding=0 endStream=true length=192 bytes=00000000bb0ab8010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=41 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=41 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=41 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=43 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=43 padding=0 endStream=true length=248 bytes=00000000f30af0010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=43 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=43 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=43 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=45 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ExecuteStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=45 padding=0 endStream=true length=59 bytes=00000000360a19436c69636b20746f20746865206c6f67696e20627574746f6e1219436c69636b20746f20746865206c6f67696e20627574746f6e MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+{"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=45 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=45 padding=0 endStream=false length=10 bytes=00000000050a0330b106 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=45 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=10 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=47 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=47 padding=0 endStream=true length=248 bytes=00000000f30af0010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=47 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=47 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=47 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=49 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishScenarioExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=49 padding=0 endStream=true length=192 bytes=00000000bb0ab8010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=49 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=49 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=49 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=51 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishSpecExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=51 padding=0 endStream=true length=168 bytes=00000000a30aa0010a4a0a16486f6d655061676520746f204c6f67696e205061676512302f55736572732f6b61646972696e63652f4465736b746f702f6e3131... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=51 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=51 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=51 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=53 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/InitializeSpecDataStore, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=53 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=53 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=53 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=53 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=55 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartSpecExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=55 padding=0 endStream=true length=146 bytes=000000008d0a8a010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=55 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=55 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=55 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=57 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/InitializeScenarioDataStore, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=57 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=57 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=57 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=57 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=59 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartScenarioExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=59 padding=0 endStream=true length=162 bytes=000000009d0a9a010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=59 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=59 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=59 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=61 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=61 padding=0 endStream=true length=296 bytes=00000001230aa0020a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=61 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=61 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=61 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=63 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ExecuteStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=63 padding=0 endStream=true length=133 bytes=00000000800a3a4c6f67696e20746f206e31312077697468202273656c656e69756d406d61696c696e61746f722e636f6d2220616e6420227465737431323334... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+{"logLevel":"debug","message":"Executing 'Login to n11 with {} and {}' using 'class com.n11.gauge.pages.Login.fillInputs"}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+Filled Email and Password Inputs MDC{}
+Email and MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=63 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=63 padding=0 endStream=false length=10 bytes=00000000050a0330ee08 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=63 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=10 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=65 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=65 padding=0 endStream=true length=296 bytes=00000001230aa0020a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=65 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=65 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=65 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=67 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=67 padding=0 endStream=true length=212 bytes=00000000cf0acc010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=67 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=67 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=67 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=69 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ExecuteStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=69 padding=0 endStream=true length=51 bytes=000000002e0a15436c69636b20746f206c6f67696e20627574746f6e1215436c69636b20746f206c6f67696e20627574746f6e MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+{"logLevel":"debug","message":"Executing 'Click to login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=69 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=69 padding=0 endStream=false length=10 bytes=00000000050a0330a30e MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=69 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=10 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=71 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=71 padding=0 endStream=true length=212 bytes=00000000cf0acc010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=71 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=71 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=71 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=73 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/StartStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=73 padding=0 endStream=true length=230 bytes=00000000e10ade010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=73 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=73 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=73 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=75 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/ExecuteStep, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=75 padding=0 endStream=true length=69 bytes=00000000400a1e436865636b206966207468652075736572206973206c6f6767656420696e121e436865636b206966207468652075736572206973206c6f6767... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+{"logLevel":"debug","message":"Executing 'Check if the user is logged in' using 'class com.n11.gauge.pages.Login.checkLogin"}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=75 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=75 padding=0 endStream=false length=9 bytes=00000000040a02300e MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=75 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=9 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=77 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishStepExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=77 padding=0 endStream=true length=230 bytes=00000000e10ade010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=77 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=77 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=77 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=79 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishScenarioExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=79 padding=0 endStream=true length=164 bytes=000000009f0a9c010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=79 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=79 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=79 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=81 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishSpecExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=81 padding=0 endStream=true length=148 bytes=000000008f0a8c010a360a054c6f67696e122d2f55736572732f6b61646972696e63652f4465736b746f702f6e31312f73706563732f6c6f67696e2e73706563... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=81 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=81 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=81 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=83 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/FinishExecution, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=83 padding=0 endStream=true length=89 bytes=00000000540a522a036e313132170a0f686964652d73756767657374696f6e12047472756532180a106d616368696e652d7265616461626c6512047472756532... MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=true bytes=1234 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=83 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=83 padding=0 endStream=false length=7 bytes=00000000020a00 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=83 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=7 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND PING: ack=false bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=true bytes=145258749040133895 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND HEADERS: streamId=85 headers=GrpcHttp2RequestHeaders[:path: /gauge.messages.Runner/Kill, :authority: 127.0.0.1:54708, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.39.0] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] INBOUND DATA: streamId=85 padding=0 endStream=true length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND PING: ack=false bytes=1234 MDC{}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=85 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND DATA: streamId=85 padding=0 endStream=false length=5 bytes=0000000000 MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND HEADERS: streamId=85 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true MDC{}
+[id: 0x9cdf078a, L:/127.0.0.1:54708 - R:/127.0.0.1:54709] OUTBOUND GO_AWAY: lastStreamId=85 errorCode=0 length=0 bytes= MDC{}
+{"logLevel":"debug","message":"Runner killed gracefully."}
+2021-08-02 08:26:51,302 pool-3-thread-1 DEBUG Stopping LoggerContext[name=22d8cfe0, org.apache.logging.log4j.core.LoggerContext@403f0a22]
+2021-08-02 08:26:51,303 pool-3-thread-1 DEBUG Stopping LoggerContext[name=22d8cfe0, org.apache.logging.log4j.core.LoggerContext@403f0a22]...
+2021-08-02 08:26:51,306 pool-3-thread-1 DEBUG Appender FLOW stopped with status true
+2021-08-02 08:26:51,307 pool-3-thread-1 DEBUG Shutting down FileManager logs/test.log
+2021-08-02 08:26:51,307 pool-3-thread-1 DEBUG Shut down FileManager logs/test.log, all resources released: true
+2021-08-02 08:26:51,307 pool-3-thread-1 DEBUG Appender File stopped with status true
+2021-08-02 08:26:51,307 pool-3-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false
+2021-08-02 08:26:51,307 pool-3-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false, all resources released: true
+2021-08-02 08:26:51,308 pool-3-thread-1 DEBUG Appender STDOUT stopped with status true
+2021-08-02 08:26:51,308 pool-3-thread-1 DEBUG Stopped XmlConfiguration[location=/Users/kadirince/Desktop/n11/target/classes/log4j2.xml] OK
+2021-08-02 08:26:51,308 pool-3-thread-1 DEBUG Stopped LoggerContext[name=22d8cfe0, org.apache.logging.log4j.core.LoggerContext@403f0a22] with status true

@@ -10,13 +10,13 @@
 {"logLevel":"debug","message":"Found Fill password fields {} in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.clickSearchButton' and 'com.n11.gauge.pages.SearchPhone.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillEmail' and 'com.n11.gauge.pages.Login.fillEmail'"}
 {"logLevel":"debug","message":"Found Fill email fields {} in current project scope."}
@@ -47,8 +47,8 @@ INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Fill email fields {}' using 'class com.n11.gauge.pages.Login.fillEmail"}
 {"logLevel":"debug","message":"Executing 'Fill password fields {}' using 'class com.n11.gauge.pages.Login.fillPassword"}
 {"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
-{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.pages.Search.clickSearchButton"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.SearchPhone.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.pages.SearchPhone.clickSearchButton"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

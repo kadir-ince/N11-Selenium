@@ -14,13 +14,13 @@
 {"logLevel":"debug","message":"Found Add third phone to favorites in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.AddFavorite.moveToSecondPage' and 'com.n11.gauge.pages.AddFavorite.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.clickSearchButton' and 'com.n11.gauge.pages.SearchPhone.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillEmail' and 'com.n11.gauge.pages.Login.fillEmail'"}
 {"logLevel":"debug","message":"Found Fill email input {} in current project scope."}

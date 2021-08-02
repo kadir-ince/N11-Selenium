@@ -1,0 +1,12 @@
+com/n11/gauge/base/Setup.class
+com/n11/gauge/pages/AddFavorite.class
+com/n11/gauge/constants/ShowFavoritesConstants.class
+com/n11/gauge/pages/HomePage.class
+com/n11/gauge/pages/Favorites.class
+com/n11/gauge/constants/LoginConstants.class
+com/n11/gauge/pages/Search.class
+com/n11/gauge/base/BaseMethods.class
+com/n11/gauge/constants/SearchConstants.class
+com/n11/gauge/constants/AddFavoriteConstants.class
+com/n11/gauge/pages/Login.class
+com/n11/gauge/constants/HomePageConstants.class

@@ -8,17 +8,17 @@
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillPassword' and 'com.n11.gauge.pages.Login.fillPassword'"}
 {"logLevel":"debug","message":"Found Fill password input {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.moveToSecondPage' and 'com.n11.gauge.pages.SearchPhone.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to the second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.navigateTo' and 'com.n11.gauge.pages.HomePage.navigateTo'"}
 {"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.clickSearchButton' and 'com.n11.gauge.pages.Search.clickSearchButton'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.clickSearchButton' and 'com.n11.gauge.pages.SearchPhone.clickSearchButton'"}
 {"logLevel":"debug","message":"Found Click the search button in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.isOpen' and 'com.n11.gauge.pages.HomePage.isOpen'"}
 {"logLevel":"debug","message":"Found Check it is open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.HomePage.clickLoginButton' and 'com.n11.gauge.pages.HomePage.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to the login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillEmail' and 'com.n11.gauge.pages.Login.fillEmail'"}
 {"logLevel":"debug","message":"Found Fill email input {} in current project scope."}
@@ -35,7 +35,7 @@
 {"logLevel":"debug","message":"\tClick the search button : public void clickSearchButton()"}
 {"logLevel":"debug","message":"\tFill password input {} : public void fillPassword(String userPassword)"}
 {"logLevel":"debug","message":"\tCheck it is open : public void isOpen()"}
-{"logLevel":"debug","message":"Executing 'Move to the second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Move to the second page' using 'class com.n11.gauge.pages.SearchPhone.moveToSecondPage"}
 {"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class com.n11.gauge.pages.HomePage.navigateTo"}
 1627383842100	geckodriver	INFO	Listening on 127.0.0.1:23650
 1627383843351	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/nz/6cw7s0j54n744p31n5ng_gfm0000gn/T/rust_mozprofileRe3d3L"
@@ -56,8 +56,8 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 {"logLevel":"debug","message":"Executing 'Click to the login button' using 'class com.n11.gauge.pages.HomePage.clickLoginButton"}
 {"logLevel":"debug","message":"Executing 'Fill email input {}' using 'class com.n11.gauge.pages.Login.fillEmail"}
 {"logLevel":"debug","message":"Executing 'Click the login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
-{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
-{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.pages.Search.clickSearchButton"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.SearchPhone.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Click the search button' using 'class com.n11.gauge.pages.SearchPhone.clickSearchButton"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

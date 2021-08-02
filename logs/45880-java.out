@@ -14,9 +14,9 @@
 {"logLevel":"debug","message":"Found Check if the user is logged in in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.clickLoginButton' and 'com.n11.gauge.pages.Login.clickLoginButton'"}
 {"logLevel":"debug","message":"Found Click to login button in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.moveToSecondPage' and 'com.n11.gauge.pages.Search.moveToSecondPage'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.moveToSecondPage' and 'com.n11.gauge.pages.SearchPhone.moveToSecondPage'"}
 {"logLevel":"debug","message":"Found Move to second page in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkIsPageOpen' and 'com.n11.gauge.pages.Search.checkIsPageOpen'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen' and 'com.n11.gauge.pages.SearchPhone.checkIsPageOpen'"}
 {"logLevel":"debug","message":"Found Check if open second page in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Login.fillInputs' and 'com.n11.gauge.pages.Login.fillInputs'"}
 {"logLevel":"debug","message":"Found Login to n11 with {} and {} in current project scope."}
@@ -24,9 +24,9 @@
 {"logLevel":"debug","message":"Found Check if the page open in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.checkDeletePhone' and 'com.n11.gauge.pages.Favorites.checkDeletePhone'"}
 {"logLevel":"debug","message":"Found Check if delete phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.checkSearch' and 'com.n11.gauge.pages.Search.checkSearch'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.checkSearch' and 'com.n11.gauge.pages.SearchPhone.checkSearch'"}
 {"logLevel":"debug","message":"Found Check if the searching samsung phone in current project scope."}
-{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Search.searchPhone' and 'com.n11.gauge.pages.Search.searchPhone'"}
+{"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.SearchPhone.searchPhone' and 'com.n11.gauge.pages.SearchPhone.searchPhone'"}
 {"logLevel":"debug","message":"Found Searching {} Phone in current project scope."}
 {"logLevel":"debug","message":"Comparing 'com.n11.gauge.pages.Favorites.deletePhone' and 'com.n11.gauge.pages.Favorites.deletePhone'"}
 {"logLevel":"debug","message":"Found Delete phone in favorites in current project scope."}
@@ -70,12 +70,12 @@ INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Click to login button' using 'class com.n11.gauge.pages.Login.clickLoginButton"}
 1627537678589	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 {"logLevel":"debug","message":"Executing 'Check if the user is logged in' using 'class com.n11.gauge.pages.Login.checkLogin"}
-{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.Search.searchPhone"}
+{"logLevel":"debug","message":"Executing 'Searching {} Phone' using 'class com.n11.gauge.pages.SearchPhone.searchPhone"}
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-{"logLevel":"debug","message":"Executing 'Check if the searching samsung phone' using 'class com.n11.gauge.pages.Search.checkSearch"}
-{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.Search.moveToSecondPage"}
-{"logLevel":"debug","message":"Executing 'Check if open second page' using 'class com.n11.gauge.pages.Search.checkIsPageOpen"}
+{"logLevel":"debug","message":"Executing 'Check if the searching samsung phone' using 'class com.n11.gauge.pages.SearchPhone.checkSearch"}
+{"logLevel":"debug","message":"Executing 'Move to second page' using 'class com.n11.gauge.pages.SearchPhone.moveToSecondPage"}
+{"logLevel":"debug","message":"Executing 'Check if open second page' using 'class com.n11.gauge.pages.SearchPhone.checkIsPageOpen"}
 {"logLevel":"debug","message":"Executing 'Add third phone to favorites' using 'class com.n11.gauge.pages.AddFavorite.addToFavorites"}
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
