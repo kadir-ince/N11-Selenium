@@ -1,9 +1,6 @@
 package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
-import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
 
 import static com.n11.gauge.base.BaseMethods.*;
@@ -28,5 +25,6 @@ public class Login {
     @Step("Check if the user is logged in")
     public void checkLogin() {
         Assertions.assertEquals(driver.getCurrentUrl(), "https://www.n11.com/", "Can't Login");
+        log.info("Checked if the user is logged in");
     }
 }

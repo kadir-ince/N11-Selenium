@@ -19,25 +19,25 @@ public class SearchComputer {
     @Step("Check if open second computer page")
     public void checkSecondPage() {
         Assertions.assertEquals(driver.getCurrentUrl(), "https://www.n11.com/arama?q=Bilgisayar&pg=2", "Can't go to 2nd page");
-
+        log.info("Checked if open second computer page");
     }
 
     @Step("Click to any product")
     public void clickToProduct() {
         listPrice = driver.findElement(PRODUCT_LIST_PRICE).getText();
         click(COMPUTER);
-        log.info("Click to computer");
+        log.info("Clicked to computer");
     }
 
     @Step("Add to cart")
     public void addToCart() {
         click(ADD_TO_CART);
-        log.info("Add computer to cart");
+        log.info("Added computer to cart");
     }
-
 
     @Step("Click to Cart Icon")
     public void goToCart() {
         click(CART);
+        log.info("Go to cart");
     }
 }

@@ -2,7 +2,6 @@ package com.n11.gauge.pages;
 
 import com.thoughtworks.gauge.Step;
 import org.junit.jupiter.api.Assertions;
-import com.n11.gauge.constants.SearchConstants.*;
 
 import static com.n11.gauge.base.BaseMethods.click;
 import static com.n11.gauge.base.BaseMethods.sendKeys;
@@ -11,7 +10,6 @@ import static com.n11.gauge.base.Setup.log;
 import static com.n11.gauge.constants.SearchConstants.SEARCH_BUTTON;
 import static com.n11.gauge.constants.SearchConstants.SEARCH_INPUT;
 import static com.n11.gauge.constants.ShowFavoritesConstants.*;
-//import static org.junit.Assert.*;
 
 public class Favorites {
 
@@ -20,12 +18,12 @@ public class Favorites {
         click(FAVORITES_TAB_LINK);
         click(ALL_FAVORITES_LINK);
         log.info("Showing my favorites page");
-
     }
 
     @Step("Check if favorites open")
     public void checkFavoritesOpen() {
         Assertions.assertEquals(driver.getTitle(), "Favorilerim - n11.com", "Can't go to favorites page");
+        log.info("Checked if favorites open");
     }
 
     @Step("Delete phone in favorites")
@@ -37,11 +35,13 @@ public class Favorites {
     @Step("Check if delete phone in favorites")
     public void checkDelete() {
         Assertions.assertTrue(driver.findElement(DELETE_OK_BUTTON).isDisplayed(), "Can't delete phone from favorites");
+        log.info("Checked if delete phone in favorites");
     }
 
     @Step("Close the delete message")
     public void closeMessage() {
         click(DELETE_OK_BUTTON);
+        log.info("Closed deleted message button");
     }
 
     @Step("Searching <Bilgisayar>")
@@ -55,5 +55,6 @@ public class Favorites {
     @Step("Check if the searching computer")
     public void checkSearch() {
         Assertions.assertEquals(driver.getTitle(), "Bilgisayar - n11.com", "Can't go to search bilgisayar page");
+        log.info("Checked if the searching computer");
     }
 }
